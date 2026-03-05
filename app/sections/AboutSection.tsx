@@ -70,7 +70,7 @@ export default function AboutSection() {
 
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
               <Link href="/about" className="btn btn-primary">Read Full Story</Link>
-              <Link href="/#ventures" className="btn btn-outline">Discover Our Ventures →</Link>
+              <Link href="/ventures" className="btn btn-outline">Discover Our Ventures →</Link>
             </div>
           </div>
         </div>

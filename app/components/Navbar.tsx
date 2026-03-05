@@ -28,9 +28,9 @@ export default function Navbar() {
         {/* Desktop Nav */}
         <ul className={styles.navLinks}>
           <li><Link href="/about">About Us</Link></li>
-          <li><Link href="/#ventures">Our Ventures</Link></li>
-          <li><Link href="/#uncle-makhana">Uncle Makhana</Link></li>
-          <li><Link href="/#pure-makhana">Pure Makhana</Link></li>
+          <li><Link href="/ventures">Our Ventures</Link></li>
+          <li><Link href="/ventures#uncle-makhana">Uncle Makhana</Link></li>
+          <li><Link href="/ventures#pure-makhana">Pure Makhana</Link></li>
           <li><Link href="/#contact">Contact</Link></li>
         </ul>
 
@@ -54,9 +54,9 @@ export default function Navbar() {
       {menuOpen && (
         <div className={styles.mobileMenu}>
           <Link href="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
-          <Link href="/#ventures" onClick={() => setMenuOpen(false)}>Our Ventures</Link>
-          <Link href="/#uncle-makhana" onClick={() => setMenuOpen(false)}>Uncle Makhana</Link>
-          <Link href="/#pure-makhana" onClick={() => setMenuOpen(false)}>Pure Makhana</Link>
+          <Link href="/ventures" onClick={() => setMenuOpen(false)}>Our Ventures</Link>
+          <Link href="/ventures#uncle-makhana" onClick={() => setMenuOpen(false)}>Uncle Makhana</Link>
+          <Link href="/ventures#pure-makhana" onClick={() => setMenuOpen(false)}>Pure Makhana</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <Link href="/#contact" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Partner With Us</Link>
         </div>

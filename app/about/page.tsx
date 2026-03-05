@@ -263,7 +263,7 @@ export default function AboutPage() {
             </p>
             <div style={{ marginTop: '40px', display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href="/#contact" className="btn btn-gold" aria-label="Partner with Zenfora Food">Partner With Us</Link>
-              <Link href="/#ventures" className="btn btn-outline-white" aria-label="Explore Zenfora Ventures">Explore Ventures</Link>
+              <Link href="/ventures" className="btn btn-outline-white" aria-label="Explore Zenfora Ventures">Explore Ventures</Link>
             </div>
           </div>
         </section>
