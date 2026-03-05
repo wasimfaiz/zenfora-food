@@ -1,9 +1,9 @@
 import styles from './UncleMakhanaSection.module.css';
 import {
   FaTag, FaStore, FaFire, FaDumbbell,
-  FaSeedling, FaLeaf, FaPepperHot, FaSnowflake, FaStar, FaCircle, FaWind
+  FaPepperHot, FaWind
 } from 'react-icons/fa';
-import { GiChiliPepper, GiButterToast, GiLemon, GiSpices } from 'react-icons/gi';
+import { GiChiliPepper, GiButterToast, GiLemon } from 'react-icons/gi';
 import { TbSalt } from 'react-icons/tb';
 
 const flavours = [

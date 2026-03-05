@@ -1,10 +1,6 @@
-'use client';
-import { useEffect, useRef } from 'react';
 import styles from './HeroSection.module.css';
 
 export default function HeroSection() {
-  const counterRef = useRef<HTMLDivElement>(null);
-
   return (
     <section className={styles.hero} id="home">
       {/* Background Image */}
