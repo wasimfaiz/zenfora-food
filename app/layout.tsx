@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 export const metadata: Metadata = {
   title: "Zenfora Food | FMG Company — Uncle Makhana & Pure Makhana",
@@ -26,6 +27,7 @@ export default function RootLayout({
       </head>
       <body suppressHydrationWarning>
         {children}
+        <FloatingWhatsApp />
       </body>
     </html>
   );
