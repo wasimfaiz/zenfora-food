@@ -1,5 +1,6 @@
 import styles from './AboutSection.module.css';
 import { FaLeaf, FaTrophy, FaGlobe, FaHeart } from 'react-icons/fa';
+import Link from 'next/link';
 
 const values = [
   { icon: <FaLeaf />, label: 'Farm-to-Pack', desc: 'Direct sourcing, zero middlemen', color: '#1a5c3a' },
@@ -67,7 +68,10 @@ export default function AboutSection() {
               ))}
             </div>
 
-            <a href="#ventures" className="btn btn-primary">Discover Our Ventures →</a>
+            <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <Link href="/about" className="btn btn-primary">Read Full Story</Link>
+              <Link href="/#ventures" className="btn btn-outline">Discover Our Ventures →</Link>
+            </div>
           </div>
         </div>
       </div>

@@ -27,16 +27,16 @@ export default function Navbar() {
 
         {/* Desktop Nav */}
         <ul className={styles.navLinks}>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#ventures">Our Ventures</a></li>
-          <li><a href="#uncle-makhana">Uncle Makhana</a></li>
-          <li><a href="#pure-makhana">Pure Makhana</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><Link href="/about">About Us</Link></li>
+          <li><Link href="/#ventures">Our Ventures</Link></li>
+          <li><Link href="/#uncle-makhana">Uncle Makhana</Link></li>
+          <li><Link href="/#pure-makhana">Pure Makhana</Link></li>
+          <li><Link href="/#contact">Contact</Link></li>
         </ul>
 
         {/* CTA */}
         <div className={styles.navCta}>
-          <a href="#contact" className="btn btn-primary">Partner With Us</a>
+          <Link href="/#contact" className="btn btn-primary">Partner With Us</Link>
         </div>
 
         {/* Mobile Hamburger */}
@@ -53,12 +53,12 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className={styles.mobileMenu}>
-          <a href="#about" onClick={() => setMenuOpen(false)}>About Us</a>
-          <a href="#ventures" onClick={() => setMenuOpen(false)}>Our Ventures</a>
-          <a href="#uncle-makhana" onClick={() => setMenuOpen(false)}>Uncle Makhana</a>
-          <a href="#pure-makhana" onClick={() => setMenuOpen(false)}>Pure Makhana</a>
-          <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
-          <a href="#contact" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Partner With Us</a>
+          <Link href="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
+          <Link href="/#ventures" onClick={() => setMenuOpen(false)}>Our Ventures</Link>
+          <Link href="/#uncle-makhana" onClick={() => setMenuOpen(false)}>Uncle Makhana</Link>
+          <Link href="/#pure-makhana" onClick={() => setMenuOpen(false)}>Pure Makhana</Link>
+          <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
+          <Link href="/#contact" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Partner With Us</Link>
         </div>
       )}
     </nav>
