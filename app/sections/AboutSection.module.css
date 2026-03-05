@@ -1,0 +1,174 @@
+.about {
+  background: var(--bg-white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+}
+
+/* Image column */
+.imageCol {
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  border-radius: 24px;
+  overflow: visible;
+}
+
+.image {
+  width: 100%;
+  height: 560px;
+  object-fit: cover;
+  border-radius: 24px;
+  display: block;
+  box-shadow: 0 30px 80px rgba(0,0,0,0.15);
+}
+
+.imageAccentCard {
+  position: absolute;
+  bottom: -24px;
+  right: -24px;
+  background: white;
+  border-radius: 16px;
+  padding: 20px 24px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.12);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  min-width: 180px;
+}
+
+.imageAccentCard2 {
+  position: absolute;
+  top: 24px;
+  left: -24px;
+  background: var(--zenfora-green);
+  border-radius: 16px;
+  padding: 18px 22px;
+  box-shadow: 0 12px 40px rgba(26,92,58,0.35);
+  color: white;
+}
+
+.accentIcon {
+  font-size: 28px;
+}
+
+.accentNum {
+  font-family: var(--font-serif);
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--zenfora-green);
+  line-height: 1;
+}
+
+.imageAccentCard2 .accentNum {
+  color: white;
+  font-size: 20px;
+}
+
+.accentLabel {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--text-light);
+  margin-top: 4px;
+}
+
+.imageAccentCard2 .accentLabel {
+  color: rgba(255,255,255,0.7);
+}
+
+/* Content column */
+.contentCol {}
+
+.title {
+  font-size: clamp(30px, 3.5vw, 48px);
+  font-weight: 800;
+  color: var(--text-dark);
+  margin-bottom: 24px;
+  line-height: 1.2;
+}
+
+.lead {
+  font-size: 18px;
+  color: var(--zenfora-green);
+  font-weight: 500;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.body {
+  font-size: 16px;
+  color: var(--text-medium);
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+
+.body strong {
+  color: var(--zenfora-green);
+  font-weight: 600;
+}
+
+/* Values */
+.values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 36px 0;
+}
+
+.valueItem {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px;
+  background: var(--bg-off);
+  border-radius: 12px;
+  border: 1px solid var(--border-light);
+  transition: all 0.3s ease;
+}
+
+.valueItem:hover {
+  background: var(--zenfora-green-pale);
+  border-color: rgba(26,92,58,0.2);
+  transform: translateY(-2px);
+}
+
+
+.valueLabel {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 2px;
+}
+
+.valueDesc {
+  font-size: 12px;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+/* Responsive */
+@media (max-width: 860px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .imageCol { order: 2; }
+  .contentCol { order: 1; }
+  .imageAccentCard { right: 0; }
+  .imageAccentCard2 { left: 0; }
+}
+
+@media (max-width: 600px) {
+  .values { grid-template-columns: 1fr; }
+  .image { height: 300px; }
+}

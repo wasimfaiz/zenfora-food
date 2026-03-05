@@ -1,0 +1,384 @@
+.pure {
+  background: var(--pure-navy);
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.pureBgGradient {
+  position: absolute;
+  top: -300px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(circle, rgba(201,168,76,0.08) 0%, transparent 60%);
+  pointer-events: none;
+}
+
+/* Header */
+.header {
+  text-align: center;
+  max-width: 680px;
+  margin: 0 auto 72px;
+}
+
+.title {
+  font-size: clamp(32px, 4vw, 56px);
+  font-weight: 900;
+  color: white;
+  margin: 20px 0 16px;
+  line-height: 1.15;
+}
+
+.titleAccent {
+  background: linear-gradient(90deg, #c9a84c, #e8d5a0, #c9a84c);
+  background-size: 200%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  from { background-position: 200% center; }
+  to { background-position: -200% center; }
+}
+
+.subtitle {
+  font-size: 17px;
+  color: var(--pure-silver);
+  line-height: 1.75;
+}
+
+/* Main Grid */
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+
+.imageFrame {
+  position: relative;
+  background: linear-gradient(135deg, rgba(201,168,76,0.1) 0%, rgba(13,27,42,0.9) 100%);
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 28px;
+  padding: 40px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageBg {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(201,168,76,0.1) 0%, transparent 70%);
+}
+
+.productImg {
+  width: 100%;
+  max-height: 340px;
+  object-fit: contain;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0 20px 60px rgba(0,0,0,0.5));
+  animation: floatPure 5s ease-in-out infinite;
+}
+
+@keyframes floatPure {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.certBadge {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(201,168,76,0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(201,168,76,0.4);
+  border-radius: 14px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 24px;
+}
+
+.certNum {
+  font-family: var(--font-serif);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--pure-gold);
+  line-height: 1;
+}
+
+.certLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: rgba(201,168,76,0.6);
+  margin-top: 2px;
+}
+
+/* Content */
+
+.contentTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(22px, 2.5vw, 32px);
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+  line-height: 1.3;
+}
+
+.contentBody {
+  font-size: 16px;
+  color: var(--pure-silver);
+  line-height: 1.8;
+  margin-bottom: 36px;
+}
+
+/* USPs */
+.usps {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.usp {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 14px;
+  transition: all 0.3s ease;
+}
+
+.usp:hover {
+  background: rgba(201,168,76,0.08);
+  border-color: rgba(201,168,76,0.35);
+  transform: translateX(4px);
+}
+
+.uspIcon {
+  font-size: 20px;
+  flex-shrink: 0;
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: rgba(201,168,76,0.12);
+  color: var(--pure-gold);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uspTitle {
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--pure-gold-light);
+  margin-bottom: 3px;
+}
+
+.uspDesc {
+  font-size: 13px;
+  color: var(--pure-silver);
+  line-height: 1.4;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 32px;
+  background: linear-gradient(135deg, #c9a84c, #8b6914);
+  color: white;
+  border-radius: 50px;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(201,168,76,0.35);
+  transition: all 0.3s ease;
+}
+.cta:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 16px 36px rgba(201,168,76,0.5);
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 8px 24px rgba(201,168,76,0.35); }
+  50% { box-shadow: 0 16px 48px rgba(201,168,76,0.6); }
+}
+
+/* Export */
+.exportSection {
+  margin-bottom: 80px;
+}
+
+.exportHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.exportTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 2.5vw, 36px);
+  font-weight: 700;
+  color: white;
+  margin-top: 12px;
+}
+
+.countryGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.countryCard {
+  text-align: center;
+  padding: 32px 20px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(201,168,76,0.15);
+  border-radius: 20px;
+  transition: all 0.3s ease;
+}
+
+.countryCard:hover {
+  background: rgba(201,168,76,0.08);
+  border-color: rgba(201,168,76,0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0,0,0,0.2);
+}
+
+.countryFlagWrap {
+  width: 70px;
+  height: 48px;
+  margin: 0 auto 14px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.35);
+  border: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.countryFlagImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.countryCard:hover .countryFlagImg {
+  transform: scale(1.08);
+}
+
+.countryName {
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--pure-gold-light);
+  margin-bottom: 6px;
+}
+
+.countryDesc {
+  font-size: 12px;
+  color: var(--pure-silver);
+}
+
+/* Benefits */
+.benefitsSection {
+  border-top: 1px solid rgba(201,168,76,0.15);
+  padding-top: 64px;
+}
+
+.benefitsHeader {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.benefitsTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(24px, 2.5vw, 36px);
+  font-weight: 700;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.benefitsSubtitle {
+  font-size: 15px;
+  color: var(--pure-silver);
+}
+
+.benefitsGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 16px;
+}
+
+.benefitCard {
+  text-align: center;
+  padding: 24px 12px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+
+.benefitCard:hover {
+  background: rgba(201,168,76,0.08);
+  border-color: rgba(201,168,76,0.25);
+  transform: translateY(-3px);
+}
+
+.benefitIcon {
+  font-size: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 12px;
+  background: rgba(255,255,255,0.05);
+}
+
+.benefitLabel {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 700;
+  color: rgba(255,255,255,0.8);
+  margin-bottom: 4px;
+}
+
+.benefitValue {
+  font-size: 11px;
+  color: var(--pure-gold);
+}
+
+/* Responsive */
+@media (max-width: 860px) {
+  .grid { grid-template-columns: 1fr; gap: 48px; }
+  .countryGrid { grid-template-columns: repeat(2, 1fr); }
+  .benefitsGrid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 600px) {
+  .countryGrid { grid-template-columns: repeat(2, 1fr); }
+  .benefitsGrid { grid-template-columns: repeat(2, 1fr); }
+}

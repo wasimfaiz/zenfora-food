@@ -1,0 +1,169 @@
+.footer {
+  background: var(--text-dark);
+  padding: 80px 0 40px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  gap: 80px;
+  margin-bottom: 60px;
+}
+
+/* Brand */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.logoIcon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #1a5c3a, #2a7a4f);
+  color: white;
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(26,92,58,0.4);
+  flex-shrink: 0;
+}
+
+.logoBrand {
+  font-family: var(--font-serif);
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.1;
+}
+
+.logoSub {
+  font-family: var(--font-body);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.4);
+}
+
+.brandDesc {
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+  line-height: 1.75;
+  max-width: 300px;
+  margin-bottom: 28px;
+}
+
+/* Ventures */
+.ventures {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.ventureUncle, .venturePure {
+  display: inline-flex;
+  align-items: center;
+  padding: 7px 16px;
+  border-radius: 20px;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.ventureUncle {
+  background: rgba(224,123,57,0.15);
+  color: #ffb380;
+  border: 1px solid rgba(224,123,57,0.3);
+}
+.ventureUncle:hover {
+  background: rgba(224,123,57,0.25);
+}
+
+.venturePure {
+  background: rgba(201,168,76,0.12);
+  color: var(--zenfora-gold-light);
+  border: 1px solid rgba(201,168,76,0.25);
+}
+.venturePure:hover {
+  background: rgba(201,168,76,0.2);
+}
+
+/* Links */
+.linkCol {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.linkGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.linkGroupTitle {
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--zenfora-gold);
+  margin-bottom: 4px;
+}
+
+.link {
+  font-size: 14px;
+  color: rgba(255,255,255,0.5);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-family: var(--font-body);
+}
+
+.link:hover {
+  color: rgba(255,255,255,0.9);
+}
+
+/* Divider */
+.divider {
+  border: none;
+  border-top: 1px solid rgba(255,255,255,0.07);
+  margin-bottom: 32px;
+}
+
+/* Bottom */
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.copyright {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: rgba(255,255,255,0.3);
+}
+
+.madeIn {
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: rgba(255,255,255,0.35);
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .top { grid-template-columns: 1fr; gap: 48px; }
+}
+
+@media (max-width: 600px) {
+  .linkCol { grid-template-columns: 1fr 1fr; }
+  .bottom { flex-direction: column; text-align: center; }
+}

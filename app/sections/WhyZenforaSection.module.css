@@ -1,0 +1,124 @@
+.why {
+  background: var(--bg-white);
+}
+
+.header {
+  max-width: 680px;
+  margin-bottom: 64px;
+}
+
+.title {
+  font-size: clamp(30px, 3.5vw, 50px);
+  font-weight: 900;
+  color: var(--text-dark);
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.subtitle {
+  font-size: 17px;
+  color: var(--text-light);
+  line-height: 1.75;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 60px;
+}
+
+/* Card */
+.card {
+  padding: 36px 32px;
+  background: white;
+  border-radius: 20px;
+  border: 1px solid var(--border-light);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.35s ease;
+  cursor: default;
+}
+
+.card:hover {
+  border-color: var(--card-color, var(--zenfora-green));
+  box-shadow: 0 20px 50px rgba(0,0,0,0.08);
+  transform: translateY(-6px);
+}
+
+.card:hover .cardAccent {
+  height: 4px;
+}
+
+.cardAccent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  transition: height 0.35s ease;
+}
+
+.cardIcon {
+  width: 54px;
+  height: 54px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.cardTitle {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  line-height: 1.3;
+}
+
+.cardDesc {
+  font-size: 14px;
+  color: var(--text-medium);
+  line-height: 1.75;
+}
+
+/* CTA Banner */
+.ctaBanner {
+  background: linear-gradient(135deg, var(--zenfora-green) 0%, var(--zenfora-green-light) 100%);
+  border-radius: 24px;
+  padding: 48px 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+  box-shadow: 0 20px 50px rgba(26,92,58,0.25);
+}
+
+.ctaTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(20px, 2vw, 28px);
+  font-weight: 700;
+  color: white;
+  margin-bottom: 8px;
+}
+
+.ctaSubtitle {
+  font-size: 15px;
+  color: rgba(255,255,255,0.75);
+}
+
+.ctaRight { flex-shrink: 0; }
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .grid { grid-template-columns: repeat(2, 1fr); }
+  .ctaBanner { flex-direction: column; text-align: center; padding: 40px 32px; }
+}
+
+@media (max-width: 600px) {
+  .grid { grid-template-columns: 1fr; }
+}

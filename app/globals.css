@@ -1,26 +1,320 @@
-@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400&family=Inter:wght@300;400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Zenfora Brand Colors */
+  --zenfora-green: #1a5c3a;
+  --zenfora-green-light: #2a7a4f;
+  --zenfora-green-pale: #e8f5ee;
+  --zenfora-gold: #c9a84c;
+  --zenfora-gold-light: #e2c27d;
+  --zenfora-gold-pale: #faf5e9;
+
+  /* Uncle Makhana (Earthy/Affordable) */
+  --uncle-orange: #e07b39;
+  --uncle-orange-dark: #b85e1f;
+  --uncle-cream: #fdf6ed;
+  --uncle-brown: #5c3d2e;
+
+  /* Pure Makhana (Luxury) */
+  --pure-navy: #0d1b2a;
+  --pure-gold: #c9a84c;
+  --pure-gold-light: #e8d5a0;
+  --pure-white: #fafafa;
+  --pure-silver: #8a9bb0;
+
+  /* Neutrals */
+  --text-dark: #0f1923;
+  --text-medium: #3d4a56;
+  --text-light: #6b7a8a;
+  --border-light: #e8ecf0;
+  --bg-white: #ffffff;
+  --bg-off: #f8fafc;
+
+  /* Typography */
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", -apple-system, sans-serif;
+  --font-body: "DM Sans", -apple-system, sans-serif;
+
+  /* Spacing */
+  --section-padding: 100px 0;
+  --container-max: 1280px;
+  --container-padding: 0 40px;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+  color: var(--text-dark);
+  background: var(--bg-white);
+  line-height: 1.6;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============ TYPOGRAPHY ============ */
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  line-height: 1.2;
+}
+
+h4,
+h5,
+h6 {
+  font-family: var(--font-sans);
+  line-height: 1.4;
+}
+
+/* ============ LAYOUT ============ */
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--container-padding);
+}
+
+.section {
+  padding: var(--section-padding);
+}
+
+/* ============ BUTTONS ============ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  border-radius: 50px;
+  font-family: var(--font-sans);
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  letter-spacing: 0.3px;
+}
+
+.btn-primary {
+  background: var(--zenfora-green);
+  color: white;
+  border-color: var(--zenfora-green);
+}
+.btn-primary:hover {
+  background: var(--zenfora-green-light);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(26, 92, 58, 0.35);
+}
+
+.btn-gold {
+  background: var(--zenfora-gold);
+  color: white;
+  border-color: var(--zenfora-gold);
+}
+.btn-gold:hover {
+  background: var(--zenfora-gold-light);
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(201, 168, 76, 0.4);
+}
+
+.btn-outline {
+  background: transparent;
+  color: var(--zenfora-green);
+  border-color: var(--zenfora-green);
+}
+.btn-outline:hover {
+  background: var(--zenfora-green);
+  color: white;
+  transform: translateY(-2px);
+}
+
+.btn-outline-white {
+  background: transparent;
+  color: white;
+  border-color: rgba(255, 255, 255, 0.6);
+}
+.btn-outline-white:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: white;
+  transform: translateY(-2px);
+}
+
+/* ============ TAGS / BADGES ============ */
+.badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.badge-green {
+  background: var(--zenfora-green-pale);
+  color: var(--zenfora-green);
+}
+
+.badge-gold {
+  background: var(--zenfora-gold-pale);
+  color: var(--zenfora-gold);
+}
+
+.badge-uncle {
+  background: #fff0e6;
+  color: var(--uncle-orange-dark);
+}
+
+/* ============ CARDS ============ */
+.card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.12);
+}
+
+/* ============ GRADIENT BACKGROUNDS ============ */
+.bg-gradient-green {
+  background: linear-gradient(
+    135deg,
+    var(--zenfora-green) 0%,
+    var(--zenfora-green-light) 100%
+  );
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(
+    135deg,
+    #b8860b 0%,
+    var(--zenfora-gold) 50%,
+    var(--zenfora-gold-light) 100%
+  );
+}
+
+/* ============ SECTION LABELS ============ */
+.section-label {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--zenfora-green);
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.section-label::before {
+  content: "";
+  display: inline-block;
+  width: 36px;
+  height: 2px;
+  background: var(--zenfora-green);
+}
+
+.section-label.gold {
+  color: var(--zenfora-gold);
+}
+.section-label.gold::before {
+  background: var(--zenfora-gold);
+}
+
+/* ============ ANIMATED ELEMENTS ============ */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(201, 168, 76, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(201, 168, 76, 0.6);
+  }
+}
+
+.animate-fadeInUp {
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.animate-float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* ============ SCROLLBAR ============ */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-off);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--zenfora-green);
+  border-radius: 3px;
+}
+
+/* ============ SELECTION ============ */
+::selection {
+  background: var(--zenfora-green-pale);
+  color: var(--zenfora-green);
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 1024px) {
+  :root {
+    --container-padding: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 64px 0;
+    --container-padding: 0 20px;
+  }
 }
