@@ -14,24 +14,23 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   margin-bottom: 22px;
 }
 
 .logoIcon {
-  width: 46px;
-  height: 46px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, #1a5c3a, #2a7a4f);
-  color: white;
-  font-family: var(--font-serif);
-  font-size: 22px;
-  font-weight: 700;
+  width: 56px;
+  height: 56px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 14px rgba(26,92,58,0.4);
   flex-shrink: 0;
+}
+
+.logoImage {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
 }
 
 .logoBrand {
@@ -69,6 +68,7 @@
 .ventureUncle, .venturePure {
   display: inline-flex;
   align-items: center;
+  gap: 8px;
   padding: 7px 16px;
   border-radius: 20px;
   font-family: var(--font-sans);
@@ -153,6 +153,9 @@
 }
 
 .madeIn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-family: var(--font-body);
   font-size: 13px;
   color: rgba(255,255,255,0.35);

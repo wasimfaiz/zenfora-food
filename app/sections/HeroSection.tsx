@@ -1,3 +1,5 @@
+import { FaGem } from 'react-icons/fa';
+import { GiChiliPepper } from 'react-icons/gi';
 import styles from './HeroSection.module.css';
 
 export default function HeroSection() {
@@ -18,7 +20,7 @@ export default function HeroSection() {
         {/* Badge */}
         <div className={styles.heroBadge}>
           <span className={styles.badgeDot} />
-          FMCG Company · Est. 2026
+          FMCG Company &middot; Est. 2026
         </div>
 
         {/* Main Heading */}
@@ -37,12 +39,12 @@ export default function HeroSection() {
         {/* Two venture pills */}
         <div className={styles.heroPills}>
           <a href="#uncle-makhana" className={styles.pillUncle}>
-            <span className={styles.pillIcon}>ðŸŸ </span>
+            <span className={styles.pillIcon}><GiChiliPepper /></span>
             Uncle Makhana
             <span className={styles.pillTag}>Affordable</span>
           </a>
           <a href="#pure-makhana" className={styles.pillPure}>
-            <span className={styles.pillIcon}>*</span>
+            <span className={styles.pillIcon}><FaGem /></span>
             Pure Makhana
             <span className={styles.pillTag}>Luxury</span>
           </a>

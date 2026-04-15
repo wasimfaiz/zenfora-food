@@ -1,5 +1,5 @@
 import styles from './ContactSection.module.css';
-import { FaEnvelope, FaPhoneAlt, FaMapMarkerAlt } from 'react-icons/fa';
+import { FaEnvelope, FaMapMarkerAlt, FaPaperPlane, FaPhoneAlt } from 'react-icons/fa';
 
 export default function ContactSection() {
   return (
@@ -44,7 +44,7 @@ export default function ContactSection() {
             <div className={styles.partnerTypes}>
               <div className={styles.partnerTypesLabel}>We're Looking For</div>
               <div className={styles.partnerTags}>
-                {['Distributors', 'Retail Partners', 'Export Buyers', 'Investors', 'B2B Clients'].map(t => (
+                {['Distributors', 'Retail Partners', 'Export Buyers', 'Investors', 'B2B Clients'].map((t) => (
                   <span className={styles.partnerTag} key={t}>{t}</span>
                 ))}
               </div>
@@ -95,7 +95,7 @@ export default function ContactSection() {
                   <textarea className={`${styles.input} ${styles.textarea}`} id="message" rows={4} placeholder="Tell us about your requirements..." />
                 </div>
                 <button type="submit" className={styles.submitBtn} id="contact-submit-btn">
-                  Send Message ðŸš€
+                  Send Message <FaPaperPlane />
                 </button>
               </form>
             </div>

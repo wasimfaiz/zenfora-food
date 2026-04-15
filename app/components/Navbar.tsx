@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import styles from './Navbar.module.css';
 
 export default function Navbar() {
@@ -18,7 +19,16 @@ export default function Navbar() {
       <div className={`container ${styles.inner}`}>
         {/* Logo */}
         <Link href="/" className={styles.logo}>
-          <div className={styles.logoIcon}>Z</div>
+          <div className={styles.logoIcon}>
+            <Image
+              src="/zenvora_logo.png"
+              alt="Zenvora Food logo"
+              width={52}
+              height={52}
+              className={styles.logoImage}
+              priority
+            />
+          </div>
           <div className={styles.logoText}>
             <span className={styles.logoBrand}>Zenvora</span>
             <span className={styles.logoSub}>Food</span>

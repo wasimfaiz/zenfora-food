@@ -1,3 +1,6 @@
+import Image from 'next/image';
+import { FaGem, FaMapMarkerAlt } from 'react-icons/fa';
+import { GiChiliPepper } from 'react-icons/gi';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -9,19 +12,33 @@ export default function Footer() {
           {/* Brand */}
           <div className={styles.brandCol}>
             <div className={styles.logo}>
-              <div className={styles.logoIcon}>Z</div>
+              <div className={styles.logoIcon}>
+                <Image
+                  src="/zenvora_logo.png"
+                  alt="Zenvora Food logo"
+                  width={56}
+                  height={56}
+                  className={styles.logoImage}
+                />
+              </div>
               <div>
                 <div className={styles.logoBrand}>Zenvora</div>
-                <div className={styles.logoSub}>Food · FMG Company</div>
+                <div className={styles.logoSub}>Food &middot; FMCG Company</div>
               </div>
             </div>
             <p className={styles.brandDesc}>
-              Redefining makhana for India and the world - from Bihar's 
+              Redefining makhana for India and the world - from Bihar&apos;s
               heartland to global shelves. Two brands, one vision.
             </p>
             <div className={styles.ventures}>
-              <a href="#uncle-makhana" className={styles.ventureUncle}>ðŸŸ  Uncle Makhana</a>
-              <a href="#pure-makhana" className={styles.venturePure}>Pure Makhana</a>
+              <a href="#uncle-makhana" className={styles.ventureUncle}>
+                <GiChiliPepper />
+                Uncle Makhana
+              </a>
+              <a href="#pure-makhana" className={styles.venturePure}>
+                <FaGem />
+                Pure Makhana
+              </a>
             </div>
           </div>
 
@@ -57,10 +74,11 @@ export default function Footer() {
         {/* Bottom */}
         <div className={styles.bottom}>
           <div className={styles.copyright}>
-            © 2026 Zenvora Food Pvt. Ltd. · All rights reserved.
+            &copy; 2026 Zenvora Food Pvt. Ltd. &middot; All rights reserved.
           </div>
           <div className={styles.madeIn}>
-            ðŸ‡®ðŸ‡³ Proudly Made in Bihar, India
+            <FaMapMarkerAlt />
+            Proudly Made in Bihar, India
           </div>
         </div>
       </div>
