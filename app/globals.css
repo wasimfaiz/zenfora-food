@@ -9,13 +9,13 @@
 }
 
 :root {
-  /* Zenfora Brand Colors */
-  --zenfora-green: #1a5c3a;
-  --zenfora-green-light: #2a7a4f;
-  --zenfora-green-pale: #e8f5ee;
-  --zenfora-gold: #c9a84c;
-  --zenfora-gold-light: #e2c27d;
-  --zenfora-gold-pale: #faf5e9;
+  /* Zenvora Brand Colors */
+  --zenvora-green: #1a5c3a;
+  --zenvora-green-light: #2a7a4f;
+  --zenvora-green-pale: #e8f5ee;
+  --zenvora-gold: #c9a84c;
+  --zenvora-gold-light: #e2c27d;
+  --zenvora-gold-pale: #faf5e9;
 
   /* Uncle Makhana (Earthy/Affordable) */
   --uncle-orange: #e07b39;
@@ -106,34 +106,34 @@ h6 {
 }
 
 .btn-primary {
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
   color: white;
-  border-color: var(--zenfora-green);
+  border-color: var(--zenvora-green);
 }
 .btn-primary:hover {
-  background: var(--zenfora-green-light);
+  background: var(--zenvora-green-light);
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(26, 92, 58, 0.35);
 }
 
 .btn-gold {
-  background: var(--zenfora-gold);
+  background: var(--zenvora-gold);
   color: white;
-  border-color: var(--zenfora-gold);
+  border-color: var(--zenvora-gold);
 }
 .btn-gold:hover {
-  background: var(--zenfora-gold-light);
+  background: var(--zenvora-gold-light);
   transform: translateY(-2px);
   box-shadow: 0 12px 30px rgba(201, 168, 76, 0.4);
 }
 
 .btn-outline {
   background: transparent;
-  color: var(--zenfora-green);
-  border-color: var(--zenfora-green);
+  color: var(--zenvora-green);
+  border-color: var(--zenvora-green);
 }
 .btn-outline:hover {
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
   color: white;
   transform: translateY(-2px);
 }
@@ -161,13 +161,13 @@ h6 {
 }
 
 .badge-green {
-  background: var(--zenfora-green-pale);
-  color: var(--zenfora-green);
+  background: var(--zenvora-green-pale);
+  color: var(--zenvora-green);
 }
 
 .badge-gold {
-  background: var(--zenfora-gold-pale);
-  color: var(--zenfora-gold);
+  background: var(--zenvora-gold-pale);
+  color: var(--zenvora-gold);
 }
 
 .badge-uncle {
@@ -195,8 +195,8 @@ h6 {
 .bg-gradient-green {
   background: linear-gradient(
     135deg,
-    var(--zenfora-green) 0%,
-    var(--zenfora-green-light) 100%
+    var(--zenvora-green) 0%,
+    var(--zenvora-green-light) 100%
   );
 }
 
@@ -204,8 +204,8 @@ h6 {
   background: linear-gradient(
     135deg,
     #b8860b 0%,
-    var(--zenfora-gold) 50%,
-    var(--zenfora-gold-light) 100%
+    var(--zenvora-gold) 50%,
+    var(--zenvora-gold-light) 100%
   );
 }
 
@@ -216,7 +216,7 @@ h6 {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  color: var(--zenfora-green);
+  color: var(--zenvora-green);
   margin-bottom: 16px;
   display: flex;
   align-items: center;
@@ -228,14 +228,14 @@ h6 {
   display: inline-block;
   width: 36px;
   height: 2px;
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
 }
 
 .section-label.gold {
-  color: var(--zenfora-gold);
+  color: var(--zenvora-gold);
 }
 .section-label.gold::before {
-  background: var(--zenfora-gold);
+  background: var(--zenvora-gold);
 }
 
 /* ============ ANIMATED ELEMENTS ============ */
@@ -295,14 +295,14 @@ h6 {
   background: var(--bg-off);
 }
 ::-webkit-scrollbar-thumb {
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
   border-radius: 3px;
 }
 
 /* ============ SELECTION ============ */
 ::selection {
-  background: var(--zenfora-green-pale);
-  color: var(--zenfora-green);
+  background: var(--zenvora-green-pale);
+  color: var(--zenvora-green);
 }
 
 /* ============ RESPONSIVE ============ */

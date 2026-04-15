@@ -17,7 +17,7 @@ export default function StatsSection() {
       </div>
       <div className="container">
         <div className={styles.inner}>
-          <div className={styles.statsLabel}>Zenfora by the Numbers</div>
+          <div className={styles.statsLabel}>Zenvora by the Numbers</div>
           <div className={styles.statsGrid}>
             {stats.map((s) => (
               <div className={styles.statCard} key={s.label}>

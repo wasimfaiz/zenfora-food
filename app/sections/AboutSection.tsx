@@ -17,7 +17,7 @@ export default function AboutSection() {
           {/* Left: Image */}
           <div className={styles.imageCol}>
             <div className={styles.imageWrapper}>
-              <img src="/about-lotus.png" alt="Lotus field in Bihar — origin of Zenfora makhana" className={styles.image} />
+              <img src="/about-lotus.png" alt="Lotus field in Bihar - origin of Zenvora makhana" className={styles.image} />
               <div className={styles.imageAccentCard}>
                 <div className={styles.accentIconWrap} style={{ color: '#1a5c3a' }}>
                   <FaLeaf size={22} />
@@ -39,7 +39,7 @@ export default function AboutSection() {
             <p className="section-label">Our Story</p>
             <h2 className={styles.title}>Born from the Heartland,<br />Built for the World</h2>
             <p className={styles.lead}>
-              Zenfora Food is an FMCG company on a mission — to unlock the full potential of makhana,
+              Zenvora Food is an FMCG company on a mission - to unlock the full potential of makhana,
               India's most underrated superfood, and bring it to tables across the globe.
             </p>
             <p className={styles.body}>
@@ -48,8 +48,8 @@ export default function AboutSection() {
               of tradition, labor, and nature's abundance.
             </p>
             <p className={styles.body}>
-              Through our two distinct ventures — <strong>Uncle Makhana</strong> for the everyday
-              Indian consumer and <strong>Pure Makhana</strong> for the discerning global palate —
+              Through our two distinct ventures - <strong>Uncle Makhana</strong> for the everyday
+              Indian consumer and <strong>Pure Makhana</strong> for the discerning global palate -
               we're building a brand that speaks to every segment, every table, every craving.
             </p>
 
@@ -70,7 +70,7 @@ export default function AboutSection() {
 
             <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
               <Link href="/about" className="btn btn-primary">Read Full Story</Link>
-              <Link href="/ventures" className="btn btn-outline">Discover Our Ventures →</Link>
+              <Link href="/ventures" className="btn btn-outline">Discover Our Ventures -&gt;</Link>
             </div>
           </div>
         </div>

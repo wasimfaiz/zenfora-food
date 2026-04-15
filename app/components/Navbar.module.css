@@ -57,7 +57,7 @@
   font-family: var(--font-serif);
   font-size: 20px;
   font-weight: 700;
-  color: var(--zenfora-green);
+  color: var(--zenvora-green);
 }
 
 .logoSub {
@@ -90,8 +90,8 @@
 }
 
 .navLinks a:hover {
-  color: var(--zenfora-green);
-  background: var(--zenfora-green-pale);
+  color: var(--zenvora-green);
+  background: var(--zenvora-green-pale);
 }
 
 .navbar:not(.scrolled) .navLinks a {
@@ -124,7 +124,7 @@
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
   border-radius: 2px;
   transition: all 0.3s ease;
 }
@@ -155,8 +155,8 @@
 }
 
 .mobileMenu a:hover {
-  background: var(--zenfora-green-pale);
-  color: var(--zenfora-green);
+  background: var(--zenvora-green-pale);
+  color: var(--zenvora-green);
 }
 
 @media (max-width: 1024px) {

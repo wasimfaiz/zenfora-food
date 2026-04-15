@@ -20,7 +20,7 @@ export default function Navbar() {
         <Link href="/" className={styles.logo}>
           <div className={styles.logoIcon}>Z</div>
           <div className={styles.logoText}>
-            <span className={styles.logoBrand}>Zenfora</span>
+            <span className={styles.logoBrand}>Zenvora</span>
             <span className={styles.logoSub}>Food</span>
           </div>
         </Link>

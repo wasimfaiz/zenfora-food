@@ -42,7 +42,7 @@
 }
 
 .card:hover {
-  border-color: var(--card-color, var(--zenfora-green));
+  border-color: var(--card-color, var(--zenvora-green));
   box-shadow: 0 20px 50px rgba(0,0,0,0.08);
   transform: translateY(-6px);
 }
@@ -88,7 +88,7 @@
 
 /* CTA Banner */
 .ctaBanner {
-  background: linear-gradient(135deg, var(--zenfora-green) 0%, var(--zenfora-green-light) 100%);
+  background: linear-gradient(135deg, var(--zenvora-green) 0%, var(--zenvora-green-light) 100%);
   border-radius: 24px;
   padding: 48px 56px;
   display: flex;

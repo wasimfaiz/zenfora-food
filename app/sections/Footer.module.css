@@ -89,7 +89,7 @@
 
 .venturePure {
   background: rgba(201,168,76,0.12);
-  color: var(--zenfora-gold-light);
+  color: var(--zenvora-gold-light);
   border: 1px solid rgba(201,168,76,0.25);
 }
 .venturePure:hover {
@@ -115,7 +115,7 @@
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: var(--zenfora-gold);
+  color: var(--zenvora-gold);
   margin-bottom: 4px;
 }
 

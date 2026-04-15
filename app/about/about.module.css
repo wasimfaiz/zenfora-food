@@ -4,7 +4,7 @@
 }
 
 .hero {
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
   color: white;
   padding: 180px 20px 100px;
   text-align: center;
@@ -83,7 +83,7 @@
 .textContent h2 {
   font-size: 2.5rem;
   margin-bottom: 24px;
-  color: var(--zenfora-green);
+  color: var(--zenvora-green);
 }
 
 .textContent p {
@@ -94,7 +94,7 @@
 }
 
 .statsSection {
-  background: var(--zenfora-gold-pale);
+  background: var(--zenvora-gold-pale);
   padding: 100px 20px;
   text-align: center;
 }
@@ -126,7 +126,7 @@
 .statIcon {
   margin-bottom: 24px;
   padding: 20px;
-  background: var(--zenfora-green-pale);
+  background: var(--zenvora-green-pale);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -136,7 +136,7 @@
 .statNumber {
   font-size: 3.5rem;
   font-family: var(--font-serif);
-  color: var(--zenfora-gold);
+  color: var(--zenvora-gold);
   margin-bottom: 10px;
   font-weight: 700;
   line-height: 1;
@@ -150,7 +150,7 @@
 }
 
 .missionSection {
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
   color: white;
   padding: 120px 20px;
   text-align: center;

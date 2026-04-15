@@ -11,7 +11,7 @@ export default function ContactSection() {
             <p className="section-label">Get in Touch</p>
             <h2 className={styles.title}>Let's Build<br />Something Great</h2>
             <p className={styles.body}>
-              Whether you're a retailer, distributor, investor, or just a makhana lover — 
+              Whether you're a retailer, distributor, investor, or just a makhana lover -
               we'd love to hear from you. Reach out and let's explore the possibilities.
             </p>
 
@@ -21,7 +21,7 @@ export default function ContactSection() {
                 <div className={styles.optionIcon}><FaEnvelope size={18} /></div>
                 <div>
                   <div className={styles.optionLabel}>Email Us</div>
-                  <div className={styles.optionValue}>hello@zenforafood.com</div>
+                  <div className={styles.optionValue}>hello@zenvorafood.com</div>
                 </div>
               </div>
               <div className={styles.contactOption}>
@@ -87,7 +87,7 @@ export default function ContactSection() {
                     <option value="">Select brand</option>
                     <option>Uncle Makhana</option>
                     <option>Pure Makhana</option>
-                    <option>Both / Zenfora Food</option>
+                    <option>Both / Zenvora Food</option>
                   </select>
                 </div>
                 <div className={styles.formGroup}>
@@ -95,7 +95,7 @@ export default function ContactSection() {
                   <textarea className={`${styles.input} ${styles.textarea}`} id="message" rows={4} placeholder="Tell us about your requirements..." />
                 </div>
                 <button type="submit" className={styles.submitBtn} id="contact-submit-btn">
-                  Send Message 🚀
+                  Send Message ðŸš€
                 </button>
               </form>
             </div>

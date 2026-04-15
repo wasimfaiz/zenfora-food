@@ -18,7 +18,7 @@ export default function HeroSection() {
         {/* Badge */}
         <div className={styles.heroBadge}>
           <span className={styles.badgeDot} />
-          FMG Company · Est. 2026
+          FMCG Company · Est. 2026
         </div>
 
         {/* Main Heading */}
@@ -29,7 +29,7 @@ export default function HeroSection() {
 
         {/* Subtext */}
         <p className={styles.heroSubtitle}>
-          Zenfora Food is redefining makhana for India and the world —<br />
+          Zenvora Food is redefining makhana for India and the world -<br />
           bringing premium quality fox nuts from farm to consumer<br />
           through two powerful ventures built for every segment.
         </p>
@@ -37,12 +37,12 @@ export default function HeroSection() {
         {/* Two venture pills */}
         <div className={styles.heroPills}>
           <a href="#uncle-makhana" className={styles.pillUncle}>
-            <span className={styles.pillIcon}>🟠</span>
+            <span className={styles.pillIcon}>ðŸŸ </span>
             Uncle Makhana
             <span className={styles.pillTag}>Affordable</span>
           </a>
           <a href="#pure-makhana" className={styles.pillPure}>
-            <span className={styles.pillIcon}>⭐</span>
+            <span className={styles.pillIcon}>*</span>
             Pure Makhana
             <span className={styles.pillTag}>Luxury</span>
           </a>

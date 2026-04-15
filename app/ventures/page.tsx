@@ -6,20 +6,20 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Ventures | Zenfora Food FMCG Portfolio - Premium Makhana Brands",
-  description: "Explore Zenfora Food's premium Makhana (Fox Nuts) ventures. Uncle Makhana offers healthy, bold Indian snacks, while Pure Makhana delivers luxury export-quality wellness.",
-  keywords: "Zenfora Food ventures, Uncle Makhana, Pure Makhana, FMCG brands, premium fox nuts, affordable healthy snacks, Indian export Makhana, luxury wellness snacks, roasted makhana, gluten-free vegan snacks, high protein superfood, buy makhana online",
+  title: "Our Ventures | Zenvora Food FMCG Portfolio - Premium Makhana Brands",
+  description: "Explore Zenvora Food's premium Makhana (Fox Nuts) ventures. Uncle Makhana offers healthy, bold Indian snacks, while Pure Makhana delivers luxury export-quality wellness.",
+  keywords: "Zenvora Food ventures, Uncle Makhana, Pure Makhana, FMCG brands, premium fox nuts, affordable healthy snacks, Indian export Makhana, luxury wellness snacks, roasted makhana, gluten-free vegan snacks, high protein superfood, buy makhana online",
   openGraph: {
-    title: "Our Ventures | Zenfora Food - Dual Brand Portfolio",
+    title: "Our Ventures | Zenvora Food - Dual Brand Portfolio",
     description: "Discover Uncle Makhana & Pure Makhana. Serving everyone from everyday families to global luxury wellness markets.",
-    url: "https://zenforafood.com/ventures",
-    siteName: "Zenfora Food",
+    url: "https://zenvorafood.com/ventures",
+    siteName: "Zenvora Food",
     images: [
       {
         url: "/pure-product.png",
         width: 1200,
         height: 630,
-        alt: "Zenfora Food Ventures - Uncle Makhana and Pure Makhana brands",
+        alt: "Zenvora Food Ventures - Uncle Makhana and Pure Makhana brands",
       },
     ],
     locale: "en_US",
@@ -27,12 +27,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Ventures | Zenfora Food Makhana Brands",
+    title: "Our Ventures | Zenvora Food Makhana Brands",
     description: "Premium roasted Fox Nuts for the Indian consumer and global exports.",
     images: ["/pure-product.png"],
   },
   alternates: {
-    canonical: "https://zenforafood.com/ventures",
+    canonical: "https://zenvorafood.com/ventures",
   }
 };
 
@@ -42,9 +42,9 @@ export default function VenturesPage() {
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Zenfora Food FMCG Ventures Portfolio",
-      "description": "The FMCG portfolio of Zenfora Food, featuring premium roasted Makhana (Fox Nuts) brands: Uncle Makhana and Pure Makhana.",
-      "url": "https://zenforafood.com/ventures",
+      "name": "Zenvora Food FMCG Ventures Portfolio",
+      "description": "The FMCG portfolio of Zenvora Food, featuring premium roasted Makhana (Fox Nuts) brands: Uncle Makhana and Pure Makhana.",
+      "url": "https://zenvorafood.com/ventures",
       "hasPart": [
         {
           "@type": "Brand",
@@ -72,15 +72,15 @@ export default function VenturesPage() {
         },
         {
           "@type": "Question",
-          "name": "Are Zenfora Food's Makhana products gluten-free and vegan?",
+          "name": "Are Zenvora Food's Makhana products gluten-free and vegan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! All Makhana (Fox Nuts) produced by Zenfora Food are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the ultimate healthy superfood snack."
+            "text": "Yes! All Makhana (Fox Nuts) produced by Zenvora Food are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the ultimate healthy superfood snack."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Zenfora Food export Makhana internationally?",
+          "name": "Does Zenvora Food export Makhana internationally?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, through our Pure Makhana brand, we actively export premium grade Fox Nuts across the globe, including to Germany, the United Kingdom (UK), Hungary, and the United Arab Emirates (UAE)."
@@ -106,7 +106,7 @@ export default function VenturesPage() {
             <p className="section-label" style={{ justifyContent: 'center', color: 'white' }}>Our FMCG Portfolio</p>
             <h1 className={styles.heroTitle}>Two Distinct Visions.<br />One Exceptional Standard.</h1>
             <p className={styles.heroSubtitle}>
-              At Zenfora Food, we believe exactly zero compromises should be made on quality. We have strategically segmented our world-class Makhana (Fox Nuts) into two powerful brands dedicated to diverse consumer palates and global markets.
+              At Zenvora Food, we believe exactly zero compromises should be made on quality. We have strategically segmented our world-class Makhana (Fox Nuts) into two powerful brands dedicated to diverse consumer palates and global markets.
             </p>
           </div>
         </header>
@@ -176,7 +176,7 @@ export default function VenturesPage() {
                     <strong>Pure Makhana</strong> represents the absolute pinnacle of our direct-to-farm harvest. We employ rigorous multi-stage grading so that only the largest, whitest, perfectly spherical seeds make it into these luxurious, minimalist packages. 
                   </p>
                   <p>
-                    Tailored expressly for premium health-food aisles, luxury hotel suites, and international wholesale markets across the globe—including <strong>Germany, the UK, Hungary, and the UAE</strong>. Pure Makhana elevates this ancient superfood with sophisticated flavorings like Himalayan Pink Salt, targeting the booming international clean-eating and vegan demographic.
+                    Tailored expressly for premium health-food aisles, luxury hotel suites, and international wholesale markets across the globe - including <strong>Germany, the UK, Hungary, and the UAE</strong>. Pure Makhana elevates this ancient superfood with sophisticated flavorings like Himalayan Pink Salt, targeting the booming international clean-eating and vegan demographic.
                   </p>
                 </div>
 
@@ -216,7 +216,7 @@ export default function VenturesPage() {
           <div className="container">
             <div className={styles.nutritionHeader}>
               <h2 id="nutrition-heading">Why Choose Fox Nuts (Makhana)?</h2>
-              <p>Beyond the incredible crunch and flavor, our carefully sourced Makhana stands as a nutritional powerhouse. Here is why fitness enthusiasts and nutritionists globally are switching to Zenfora Food.</p>
+              <p>Beyond the incredible crunch and flavor, our carefully sourced Makhana stands as a nutritional powerhouse. Here is why fitness enthusiasts and nutritionists globally are switching to Zenvora Food.</p>
             </div>
             <div className={styles.nutritionGrid}>
               <div className={styles.nutritionCard}>
@@ -248,11 +248,11 @@ export default function VenturesPage() {
                 <p>Uncle Makhana is designed as an affordable, flavorful, everyday healthy snack for the Indian demographic. Pure Makhana is our ultra-premium, luxury brand consisting of A+ export grade, hand-picked lotus seeds aimed at international wellness markets and high-end retail.</p>
               </div>
               <div className={styles.faqCard}>
-                <h3>Are Zenfora Food's Makhana products gluten-free and vegan?</h3>
-                <p>Yes! All Makhana (Fox Nuts) produced by Zenfora Food are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the perfect healthy superfood snack.</p>
+                <h3>Are Zenvora Food's Makhana products gluten-free and vegan?</h3>
+                <p>Yes! All Makhana (Fox Nuts) produced by Zenvora Food are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the perfect healthy superfood snack.</p>
               </div>
               <div className={styles.faqCard}>
-                <h3>Does Zenfora Food export Makhana internationally?</h3>
+                <h3>Does Zenvora Food export Makhana internationally?</h3>
                 <p>Yes, through our Pure Makhana brand, we actively export premium grade Fox Nuts across the globe, including to Germany, the United Kingdom (UK), Hungary, and the United Arab Emirates (UAE). We adhere strictly to international food safety and grading standards.</p>
               </div>
             </div>
@@ -268,7 +268,7 @@ export default function VenturesPage() {
                 We are actively looking for dynamic distribution partners, B2B wholesale buyers, global importers, and retail chains to stock Uncle Makhana and Pure Makhana. Partner with a brand that leads with quality and reliability.
               </p>
               <div className={styles.ctaButtons}>
-                <Link href="/#contact" className="btn btn-primary" aria-label="Become a distributor for Zenfora Food">Become a B2B Distributor</Link>
+                <Link href="/#contact" className="btn btn-primary" aria-label="Become a distributor for Zenvora Food">Become a B2B Distributor</Link>
                 <Link href="/about" className="btn btn-outline" aria-label="Learn about our farm to pack Makhana supply chain">Learn About Our Farm-to-Pack Process</Link>
               </div>
             </div>

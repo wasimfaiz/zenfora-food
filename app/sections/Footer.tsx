@@ -11,17 +11,17 @@ export default function Footer() {
             <div className={styles.logo}>
               <div className={styles.logoIcon}>Z</div>
               <div>
-                <div className={styles.logoBrand}>Zenfora</div>
+                <div className={styles.logoBrand}>Zenvora</div>
                 <div className={styles.logoSub}>Food · FMG Company</div>
               </div>
             </div>
             <p className={styles.brandDesc}>
-              Redefining makhana for India and the world — from Bihar's 
+              Redefining makhana for India and the world - from Bihar's 
               heartland to global shelves. Two brands, one vision.
             </p>
             <div className={styles.ventures}>
-              <a href="#uncle-makhana" className={styles.ventureUncle}>🟠 Uncle Makhana</a>
-              <a href="#pure-makhana" className={styles.venturePure}>⭐ Pure Makhana</a>
+              <a href="#uncle-makhana" className={styles.ventureUncle}>ðŸŸ  Uncle Makhana</a>
+              <a href="#pure-makhana" className={styles.venturePure}>Pure Makhana</a>
             </div>
           </div>
 
@@ -31,7 +31,7 @@ export default function Footer() {
               <div className={styles.linkGroupTitle}>Company</div>
               <a href="#about" className={styles.link}>About Us</a>
               <a href="#ventures" className={styles.link}>Our Ventures</a>
-              <a href="#why-zenfora" className={styles.link}>Why Zenfora</a>
+              <a href="#why-zenvora" className={styles.link}>Why Zenvora</a>
               <a href="#contact" className={styles.link}>Contact</a>
             </div>
             <div className={styles.linkGroup}>
@@ -43,7 +43,7 @@ export default function Footer() {
             </div>
             <div className={styles.linkGroup}>
               <div className={styles.linkGroupTitle}>Connect</div>
-              <a href="mailto:hello@zenforafood.com" className={styles.link}>Email Us</a>
+              <a href="mailto:hello@zenvorafood.com" className={styles.link}>Email Us</a>
               <a href="#" className={styles.link}>LinkedIn</a>
               <a href="#" className={styles.link}>Instagram</a>
               <a href="#" className={styles.link}>WhatsApp</a>
@@ -57,10 +57,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className={styles.bottom}>
           <div className={styles.copyright}>
-            © 2026 Zenfora Food Pvt. Ltd. · All rights reserved.
+            © 2026 Zenvora Food Pvt. Ltd. · All rights reserved.
           </div>
           <div className={styles.madeIn}>
-            🇮🇳 Proudly Made in Bihar, India
+            ðŸ‡®ðŸ‡³ Proudly Made in Bihar, India
           </div>
         </div>
       </div>

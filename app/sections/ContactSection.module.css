@@ -54,8 +54,8 @@
   font-size: 18px;
   width: 48px;
   height: 48px;
-  background: var(--zenfora-green-pale);
-  color: var(--zenfora-green);
+  background: var(--zenvora-green-pale);
+  color: var(--zenvora-green);
   border-radius: 12px;
   display: flex;
   align-items: center;
@@ -100,8 +100,8 @@
 .partnerTag {
   display: inline-block;
   padding: 6px 14px;
-  background: var(--zenfora-green-pale);
-  color: var(--zenfora-green);
+  background: var(--zenvora-green-pale);
+  color: var(--zenvora-green);
   border-radius: 20px;
   font-size: 12px;
   font-weight: 600;
@@ -167,7 +167,7 @@
 }
 
 .input:focus {
-  border-color: var(--zenfora-green);
+  border-color: var(--zenvora-green);
   background: white;
   box-shadow: 0 0 0 3px rgba(26,92,58,0.08);
 }
@@ -183,7 +183,7 @@
 
 .submitBtn {
   padding: 16px 32px;
-  background: linear-gradient(135deg, var(--zenfora-green) 0%, var(--zenfora-green-light) 100%);
+  background: linear-gradient(135deg, var(--zenvora-green) 0%, var(--zenvora-green-light) 100%);
   color: white;
   border: none;
   border-radius: 50px;

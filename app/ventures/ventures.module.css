@@ -4,7 +4,7 @@
 }
 
 .hero {
-  background: var(--zenfora-green);
+  background: var(--zenvora-green);
   color: white;
   padding: 180px 20px 100px;
   text-align: center;
@@ -182,7 +182,7 @@
 
 .ctaCard h2 {
   font-size: 3rem;
-  color: var(--zenfora-green);
+  color: var(--zenvora-green);
   margin-bottom: 20px;
 }
 
@@ -205,7 +205,7 @@
    ========================================= */
 .nutritionSection {
   padding: 100px 0;
-  background-color: var(--zenfora-gold-pale);
+  background-color: var(--zenvora-gold-pale);
   text-align: center;
 }
 
@@ -216,7 +216,7 @@
 
 .nutritionHeader h2 {
   font-size: 2.8rem;
-  color: var(--zenfora-green);
+  color: var(--zenvora-green);
   margin-bottom: 20px;
 }
 
@@ -246,7 +246,7 @@
 
 .nutritionIcon {
   font-size: 3rem;
-  color: var(--zenfora-gold);
+  color: var(--zenvora-gold);
   margin-bottom: 24px;
 }
 
@@ -272,7 +272,7 @@
 
 .faqTitle {
   font-size: 2.8rem;
-  color: var(--zenfora-green);
+  color: var(--zenvora-green);
   text-align: center;
   margin-bottom: 60px;
 }
@@ -289,7 +289,7 @@
   background: var(--bg-off);
   padding: 40px;
   border-radius: 16px;
-  border-left: 6px solid var(--zenfora-gold);
+  border-left: 6px solid var(--zenvora-gold);
 }
 
 .faqCard h3 {

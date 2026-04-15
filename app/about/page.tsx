@@ -6,20 +6,20 @@ import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Zenfora Food - Premium Makhana (Fox Nuts) Brand",
-  description: "Discover the journey of Zenfora Food. From the lotus ponds of Bihar to global markets, we bring 100% farm-sourced, premium quality Makhana (Fox Nuts) with our Uncle Makhana and Pure Makhana brands.",
-  keywords: "about Zenfora Food, our story, Makhana, Fox Nuts, Indian superfood, Bihar makhana, healthy snacking, Uncle Makhana, Pure Makhana, FMCG company, farm to pack, directly sourced, global export",
+  title: "About Us | Zenvora Food - Premium Makhana (Fox Nuts) Brand",
+  description: "Discover the journey of Zenvora Food. From the lotus ponds of Bihar to global markets, we bring 100% farm-sourced, premium quality Makhana (Fox Nuts) with our Uncle Makhana and Pure Makhana brands.",
+  keywords: "about Zenvora Food, our story, Makhana, Fox Nuts, Indian superfood, Bihar makhana, healthy snacking, Uncle Makhana, Pure Makhana, FMCG company, farm to pack, directly sourced, global export",
   openGraph: {
-    title: "About Us | Zenfora Food - Premium Makhana (Fox Nuts)",
-    description: "Discover the journey of Zenfora Food. From the lotus ponds of Bihar to global markets, we bring 100% farm-sourced, premium quality Makhana.",
-    url: "https://zenforafood.com/about",
-    siteName: "Zenfora Food",
+    title: "About Us | Zenvora Food - Premium Makhana (Fox Nuts)",
+    description: "Discover the journey of Zenvora Food. From the lotus ponds of Bihar to global markets, we bring 100% farm-sourced, premium quality Makhana.",
+    url: "https://zenvorafood.com/about",
+    siteName: "Zenvora Food",
     images: [
       {
         url: "/about-lotus.png",
         width: 1200,
         height: 630,
-        alt: "Zenfora Food - Premium Makhana Harvesting in Bihar",
+        alt: "Zenvora Food - Premium Makhana Harvesting in Bihar",
       },
     ],
     locale: "en_US",
@@ -27,12 +27,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Us | Zenfora Food - Premium Makhana",
+    title: "About Us | Zenvora Food - Premium Makhana",
     description: "Premium farm-sourced Makhana from Bihar to the world.",
     images: ["/about-lotus.png"],
   },
   alternates: {
-    canonical: "https://zenforafood.com/about",
+    canonical: "https://zenvorafood.com/about",
   }
 };
 
@@ -41,20 +41,20 @@ export default function AboutPage() {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    "name": "About Zenfora Food",
-    "description": "Discover the detailed story behind Zenfora Food, bringing premium Makhana (Fox Nuts) from the heartland of Bihar to global markets.",
-    "url": "https://zenforafood.com/about",
+    "name": "About Zenvora Food",
+    "description": "Discover the detailed story behind Zenvora Food, bringing premium Makhana (Fox Nuts) from the heartland of Bihar to global markets.",
+    "url": "https://zenvorafood.com/about",
     "publisher": {
       "@type": "Organization",
-      "name": "Zenfora Food",
+      "name": "Zenvora Food",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://zenforafood.com/logo.png"
+        "url": "https://zenvorafood.com/logo.png"
       }
     },
     "mainEntity": {
       "@type": "Organization",
-      "name": "Zenfora Food",
+      "name": "Zenvora Food",
       "foundingLocation": {
         "@type": "Place",
         "name": "Bihar, India"
@@ -89,7 +89,7 @@ export default function AboutPage() {
             <p className="section-label gold" style={{ justifyContent: 'center' }}>Our Story</p>
             <h1 className={styles.heroTitle}>Born in the Heartland.<br />Built for the World.</h1>
             <p className={styles.heroSubtitle}>
-              From the sacred lotus ponds of Bihar to global wellness aisles—this is the authentic journey of Zenfora Food, a premium FMCG company elevating the Indian superfood, Makhana.
+              From the sacred lotus ponds of Bihar to global wellness aisles - this is the authentic journey of Zenvora Food, a premium FMCG company elevating the Indian superfood, Makhana.
             </p>
           </div>
         </header>
@@ -113,10 +113,10 @@ export default function AboutPage() {
                   <h2 id="heritage-heading" className="section-label">01. Heritage</h2>
                   <h3>The Origin: A Centuries-Old Superfood</h3>
                   <p>
-                    Born in the heartland of <strong>Bihar, India</strong>, where the sacred lotus blooms natively, Zenfora Food was founded with a profound respect for a centuries-old superfood. 
+                    Born in the heartland of <strong>Bihar, India</strong>, where the sacred lotus blooms natively, Zenvora Food was founded with a profound respect for a centuries-old superfood. 
                   </p>
                   <p>
-                    For generations, <strong>Makhana (Fox Nuts)</strong> was a well-kept secret of Indian households—a symbol of purity, offered to deities and consumed during fasting for its exceptional nutritional profile. High in protein, low in fat, and rich in antioxidants, we recognized that this humble seed was a nutritional powerhouse waiting to be shared with the modern world.
+                    For generations, <strong>Makhana (Fox Nuts)</strong> was a well-kept secret of Indian households - a symbol of purity, offered to deities and consumed during fasting for its exceptional nutritional profile. High in protein, low in fat, and rich in antioxidants, we recognized that this humble seed was a nutritional powerhouse waiting to be shared with the modern world.
                   </p>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function AboutPage() {
                     Despite its immense health benefits, the journey of Makhana from the muddy ponds of Bihar to global shelves was historically broken. Complex chains of middlemen exploited local farmers, grading processes were inconsistent, and the true value of <strong>Fox Nuts</strong> remained unrealized on the world food stage.
                   </p>
                   <p>
-                    Farmers who braved the difficult harvesting conditions were strictly undercompensated, while consumers received subpar, unstandardized products. Zenfora Food observed an urgent need to disrupt this with transparency, fairness, and uncompromising quality control.
+                    Farmers who braved the difficult harvesting conditions were strictly undercompensated, while consumers received subpar, unstandardized products. Zenvora Food observed an urgent need to disrupt this with transparency, fairness, and uncompromising quality control.
                   </p>
                 </div>
                 <div className={styles.imageCol}>
@@ -152,16 +152,16 @@ export default function AboutPage() {
                 <div className={styles.imageCol}>
                   <img 
                     src="/hero-bg.png" 
-                    alt="Zenfora Food working directly with Makhana farmers in Bihar to ensure fair trade" 
+                    alt="Zenvora Food working directly with Makhana farmers in Bihar to ensure fair trade" 
                     className={styles.image} 
                     loading="lazy" 
                   />
                 </div>
                 <div className={styles.textContent}>
                   <h2 id="revolution-heading" className="section-label">03. The Revolution</h2>
-                  <h3>The Zenfora Way: 100% Farm-to-Pack</h3>
+                  <h3>The Zenvora Way: 100% Farm-to-Pack</h3>
                   <p>
-                    We set out to challenge the status quo. Zenfora Food bypassed the outdated supply chain to establish a <strong>direct farm-to-pack model</strong>, working hand-in-hand directly with cultivators in Bihar. 
+                    We set out to challenge the status quo. Zenvora Food bypassed the outdated supply chain to establish a <strong>direct farm-to-pack model</strong>, working hand-in-hand directly with cultivators in Bihar. 
                   </p>
                   <p>
                     By implementing rigorous grading, strict hygiene cleaning, and state-of-the-art roasting processes right at the source, we ensure fair wages for the farmers while achieving international standards of quality. Our ethical sourcing means better livelihoods for farming families and precisely graded, superior quality Makhana for your snacking.
@@ -177,7 +177,7 @@ export default function AboutPage() {
                   <h2 id="portfolio-heading" className="section-label gold">04. Our Portfolio</h2>
                   <h3>Two Distinct Ventures</h3>
                   <p>
-                    Today, Zenfora Food proudly operates two powerful FMCG snack brands, each designed to cater to a unique audience seeking healthy, flavorful alternatives.
+                    Today, Zenvora Food proudly operates two powerful FMCG snack brands, each designed to cater to a unique audience seeking healthy, flavorful alternatives.
                   </p>
                   <p>
                     <strong>Uncle Makhana</strong> brings this wholesome, crunchy snack to everyday Indian families with exciting, bold, and nostalgic flavors at highly accessible pricing. Meanwhile, <strong>Pure Makhana</strong> elevates this humble seed into a luxury wellness product, exporting premium, hand-picked grades to discerning clean-eating consumers in international markets.
@@ -211,7 +211,7 @@ export default function AboutPage() {
                   <h2 id="global-heading" className="section-label">05. The Future</h2>
                   <h3>The Global Vision</h3>
                   <p>
-                    Our story is just beginning. Zenfora Food is actively expanding as a global FMCG company, proudly exporting <strong>export-grade Makhana</strong> to Germany, the UK, Hungary, and the UAE, taking a piece of rich Indian heritage straight to global wellness aisles.
+                    Our story is just beginning. Zenvora Food is actively expanding as a global FMCG company, proudly exporting <strong>export-grade Makhana</strong> to Germany, the UK, Hungary, and the UAE, taking a piece of rich Indian heritage straight to global wellness aisles.
                   </p>
                   <p>
                     We envision a world where Fox Nuts stand proudly alongside almonds, cashews, and walnuts as a staple global superfood. Every crunch is a testament to our commitment to health, sustainable agriculture, and the hardworking farmers who make it all possible.
@@ -224,29 +224,29 @@ export default function AboutPage() {
         </article>
 
         {/* Our Pillars / Stats */}
-        <section className={styles.statsSection} aria-label="Zenfora Food Impact Statistics">
+        <section className={styles.statsSection} aria-label="Zenvora Food Impact Statistics">
           <div className="container">
             {/* SEO accessibility screen reader heading */}
             <h2 style={{ position: 'absolute', width: '1px', height: '1px', padding: 0, margin: '-1px', overflow: 'hidden', clip: 'rect(0, 0, 0, 0)', whiteSpace: 'nowrap', border: 0 }}>Our Impact</h2>
             
             <div className={styles.statsGrid}>
               <div className={styles.statItem}>
-                <div className={styles.statIcon}><FaSeedling size={48} color="var(--zenfora-green)" aria-hidden="true" /></div>
+                <div className={styles.statIcon}><FaSeedling size={48} color="var(--zenvora-green)" aria-hidden="true" /></div>
                 <div className={styles.statNumber}>100%</div>
                 <div className={styles.statLabel}>Directly Farm Sourced</div>
               </div>
               <div className={styles.statItem}>
-                <div className={styles.statIcon}><FaHandsHelping size={48} color="var(--zenfora-green)" aria-hidden="true" /></div>
+                <div className={styles.statIcon}><FaHandsHelping size={48} color="var(--zenvora-green)" aria-hidden="true" /></div>
                 <div className={styles.statNumber}>Zero</div>
                 <div className={styles.statLabel}>Middlemen Involved</div>
               </div>
               <div className={styles.statItem}>
-                <div className={styles.statIcon}><FaCertificate size={48} color="var(--zenfora-green)" aria-hidden="true" /></div>
+                <div className={styles.statIcon}><FaCertificate size={48} color="var(--zenvora-green)" aria-hidden="true" /></div>
                 <div className={styles.statNumber}>A+</div>
                 <div className={styles.statLabel}>Export Quality Grade</div>
               </div>
               <div className={styles.statItem}>
-                <div className={styles.statIcon}><FaGlobe size={48} color="var(--zenfora-green)" aria-hidden="true" /></div>
+                <div className={styles.statIcon}><FaGlobe size={48} color="var(--zenvora-green)" aria-hidden="true" /></div>
                 <div className={styles.statNumber}>4+</div>
                 <div className={styles.statLabel}>Countries Reached</div>
               </div>
@@ -259,11 +259,11 @@ export default function AboutPage() {
           <div className={styles.missionContent}>
             <h2 id="cta-heading">Join Our Journey</h2>
             <p>
-              Whether you are a consumer looking for healthy snacking options, finding retail superstores, or a global partner wanting to distribute premium makhana, we invite you to be a part of the Zenfora Food story.
+              Whether you are a consumer looking for healthy snacking options, finding retail superstores, or a global partner wanting to distribute premium makhana, we invite you to be a part of the Zenvora Food story.
             </p>
             <div style={{ marginTop: '40px', display: 'flex', gap: '20px', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <Link href="/#contact" className="btn btn-gold" aria-label="Partner with Zenfora Food">Partner With Us</Link>
-              <Link href="/ventures" className="btn btn-outline-white" aria-label="Explore Zenfora Ventures">Explore Ventures</Link>
+              <Link href="/#contact" className="btn btn-gold" aria-label="Partner with Zenvora Food">Partner With Us</Link>
+              <Link href="/ventures" className="btn btn-outline-white" aria-label="Explore Zenvora Ventures">Explore Ventures</Link>
             </div>
           </div>
         </section>

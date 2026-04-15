@@ -80,8 +80,8 @@
 }
 
 .statSuffix {
-  color: var(--zenfora-gold);
-  -webkit-text-fill-color: var(--zenfora-gold);
+  color: var(--zenvora-gold);
+  -webkit-text-fill-color: var(--zenvora-gold);
 }
 
 .statLabel {

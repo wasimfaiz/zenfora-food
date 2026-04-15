@@ -1,4 +1,4 @@
-import styles from './WhyZenforaSection.module.css';
+import styles from './WhyZenvoraSection.module.css';
 import { FaSeedling, FaFlask, FaLightbulb, FaChartLine, FaHandshake, FaGlobe } from 'react-icons/fa';
 
 const reasons = [
@@ -17,7 +17,7 @@ const reasons = [
   {
     icon: <FaLightbulb />,
     title: 'Dual Market Strategy',
-    desc: "We pioneer the market with two brands — making us the only FMCG company serving both mass and luxury makhana.",
+    desc: "We pioneer the market with two brands - making us the only FMCG company serving both mass and luxury makhana.",
     color: '#6b21a8',
   },
   {
@@ -40,16 +40,16 @@ const reasons = [
   },
 ];
 
-export default function WhyZenforaSection() {
+export default function WhyZenvoraSection() {
   return (
-    <section className={`section ${styles.why}`} id="why-zenfora">
+    <section className={`section ${styles.why}`} id="why-zenvora">
       <div className="container">
         {/* Header */}
         <div className={styles.header}>
           <p className="section-label">Why Choose Us</p>
-          <h2 className={styles.title}>Why Zenfora Food is<br />the Future of Makhana</h2>
+          <h2 className={styles.title}>Why Zenvora Food is<br />the Future of Makhana</h2>
           <p className={styles.subtitle}>
-            We don't just sell makhana — we're building an ecosystem.
+            We don't just sell makhana - we're building an ecosystem.
             From Bihar's farms to global shelves, here's what makes us different.
           </p>
         </div>
@@ -71,11 +71,11 @@ export default function WhyZenforaSection() {
         {/* Bottom CTA Banner */}
         <div className={styles.ctaBanner}>
           <div className={styles.ctaLeft}>
-            <h3 className={styles.ctaTitle}>Ready to grow with Zenfora?</h3>
+            <h3 className={styles.ctaTitle}>Ready to grow with Zenvora?</h3>
             <p className={styles.ctaSubtitle}>We welcome distributor partnerships, investors, and retail chains.</p>
           </div>
           <div className={styles.ctaRight}>
-            <a href="#contact" className="btn btn-gold">Start a Conversation →</a>
+            <a href="#contact" className="btn btn-gold">Start a Conversation -&gt;</a>
           </div>
         </div>
       </div>

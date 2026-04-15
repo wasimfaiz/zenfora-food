@@ -5,7 +5,7 @@ import VenturesSection from "./sections/VenturesSection";
 import UncleMakhanaSection from "./sections/UncleMakhanaSection";
 import PureMakhanaSection from "./sections/PureMakhanaSection";
 import StatsSection from "./sections/StatsSection";
-import WhyZenforaSection from "./sections/WhyZenforaSection";
+import WhyZenvoraSection from "./sections/WhyZenvoraSection";
 import ContactSection from "./sections/ContactSection";
 import Footer from "./sections/Footer";
 
@@ -19,7 +19,7 @@ export default function Home() {
       <UncleMakhanaSection />
       <PureMakhanaSection />
       <StatsSection />
-      <WhyZenforaSection />
+      <WhyZenvoraSection />
       <ContactSection />
       <Footer />
     </>
