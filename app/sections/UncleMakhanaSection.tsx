@@ -1,18 +1,13 @@
 import styles from './UncleMakhanaSection.module.css';
-import {
-  FaTag, FaStore, FaFire, FaDumbbell,
-  FaPepperHot, FaWind
-} from 'react-icons/fa';
-import { GiChiliPepper, GiButterToast, GiLemon } from 'react-icons/gi';
-import { TbSalt } from 'react-icons/tb';
+import { LuTag, LuStore, LuFlame, LuDumbbell, LuWind, LuCroissant, LuCitrus, LuSnowflake } from 'react-icons/lu';
 
 const flavours = [
-  { icon: <GiChiliPepper />, name: 'Spicy Chaat', desc: 'Tangy, punchy, street-style', color: '#e07b39' },
-  { icon: <GiButterToast />, name: 'Butter Masala', desc: 'Creamy, indulgent, rich', color: '#c9a84c' },
-  { icon: <GiLemon />, name: 'Nimbu Masala', desc: 'Zesty lemon with spices', color: '#d4ac16' },
-  { icon: <FaWind />, name: 'Mint Magic', desc: 'Cool, refreshing finish', color: '#27ae60' },
-  { icon: <FaPepperHot />, name: 'Pudina Chilli', desc: 'Mint meets heat & bold', color: '#c0392b' },
-  { icon: <TbSalt />, name: 'Classic Salted', desc: 'Pure, simple, satisfying', color: '#7f8c8d' },
+  { icon: <LuFlame />, name: 'Spicy Chaat', desc: 'Tangy, punchy, street-style', color: '#e07b39' },
+  { icon: <LuCroissant />, name: 'Butter Masala', desc: 'Creamy, indulgent, rich', color: '#c9a84c' },
+  { icon: <LuCitrus />, name: 'Nimbu Masala', desc: 'Zesty lemon with spices', color: '#d4ac16' },
+  { icon: <LuWind />, name: 'Mint Magic', desc: 'Cool, refreshing finish', color: '#27ae60' },
+  { icon: <LuFlame />, name: 'Pudina Chilli', desc: 'Mint meets heat & bold', color: '#c0392b' },
+  { icon: <LuSnowflake />, name: 'Classic Salted', desc: 'Pure, simple, satisfying', color: '#7f8c8d' },
 ];
 
 export default function UncleMakhanaSection() {
@@ -40,7 +35,7 @@ export default function UncleMakhanaSection() {
             <div className={styles.highlights}>
               <div className={styles.highlight}>
                 <div className={styles.highlightIcon} style={{ background: '#fff0e6', color: '#b85e1f' }}>
-                  <FaTag size={20} />
+                  <LuTag size={20} />
                 </div>
                 <div>
                   <div className={styles.highlightTitle}>Budget Friendly</div>
@@ -49,7 +44,7 @@ export default function UncleMakhanaSection() {
               </div>
               <div className={styles.highlight}>
                 <div className={styles.highlightIcon} style={{ background: '#e8f5ee', color: '#1a5c3a' }}>
-                  <FaStore size={20} />
+                  <LuStore size={20} />
                 </div>
                 <div>
                   <div className={styles.highlightTitle}>Wide Distribution</div>
@@ -58,7 +53,7 @@ export default function UncleMakhanaSection() {
               </div>
               <div className={styles.highlight}>
                 <div className={styles.highlightIcon} style={{ background: '#fff0e6', color: '#c0392b' }}>
-                  <FaFire size={20} />
+                  <LuFlame size={20} />
                 </div>
                 <div>
                   <div className={styles.highlightTitle}>10+ Bold Flavours</div>
@@ -67,7 +62,7 @@ export default function UncleMakhanaSection() {
               </div>
               <div className={styles.highlight}>
                 <div className={styles.highlightIcon} style={{ background: '#e8f5ee', color: '#1a5c3a' }}>
-                  <FaDumbbell size={20} />
+                  <LuDumbbell size={20} />
                 </div>
                 <div>
                   <div className={styles.highlightTitle}>High Protein</div>
@@ -86,7 +81,7 @@ export default function UncleMakhanaSection() {
               <div className={styles.productBg} />
               <img src="/uncle-product.png" alt="Uncle Makhana product" className={styles.productImg} />
               <div className={styles.productBadge}>
-                <FaFire size={11} style={{ marginRight: 4 }} /> Most Popular
+                <LuFlame size={11} style={{ marginRight: 4 }} /> Most Popular
               </div>
             </div>
 

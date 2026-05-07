@@ -3,10 +3,10 @@ import "./globals.css";
 import FloatingWhatsApp from "./components/FloatingWhatsApp";
 
 export const metadata: Metadata = {
-  title: "Zenvora Food | FMG Company - Uncle Makhana & Pure Makhana",
+  title: "Zenvora Foods | FMCG Company - Uncle Makhana & Pure Makhana",
   description:
-    "Zenvora Food is a premium FMCG company bringing makhana to every table. Explore our two ventures: Uncle Makhana for everyday snacking and Pure Makhana for luxury wellness.",
-  keywords: "Zenvora Food, Uncle Makhana, Pure Makhana, FMCG, makhana, lotus seeds, healthy snacks, luxury food",
+    "Zenvora Foods is a premium FMCG company bringing makhana to every table. Explore our two ventures: Uncle Makhana for everyday snacking and Pure Makhana for luxury wellness.",
+  keywords: "Zenvora Foods, Uncle Makhana, Pure Makhana, FMCG, makhana, lotus seeds, healthy snacks, luxury food",
   icons: {
     icon: [
       { url: "/zenvora_logo.png", sizes: "16x16", type: "image/png" },
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   },
   manifest: "/site.webmanifest",
   openGraph: {
-    title: "Zenvora Food | FMG Company",
+    title: "Zenvora Foods | FMCG Company",
     description: "Premium makhana brand with two powerful ventures - Uncle Makhana & Pure Makhana.",
     type: "website",
   },

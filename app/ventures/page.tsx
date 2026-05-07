@@ -1,25 +1,25 @@
 import Navbar from "../components/Navbar";
 import Footer from "../sections/Footer";
 import styles from "./ventures.module.css";
-import { FaFire, FaLeaf, FaShoppingBasket, FaPlaneDeparture, FaStar, FaGem, FaHeartbeat, FaCheckCircle, FaSeedling } from "react-icons/fa";
+import { LuFlame, LuLeaf, LuShoppingBasket, LuPlaneTakeoff, LuStar, LuGem, LuHeartPulse, LuCircleCheck, LuSprout } from "react-icons/lu";
 import Link from "next/link";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Ventures | Zenvora Food FMCG Portfolio - Premium Makhana Brands",
-  description: "Explore Zenvora Food's premium Makhana (Fox Nuts) ventures. Uncle Makhana offers healthy, bold Indian snacks, while Pure Makhana delivers luxury export-quality wellness.",
-  keywords: "Zenvora Food ventures, Uncle Makhana, Pure Makhana, FMCG brands, premium fox nuts, affordable healthy snacks, Indian export Makhana, luxury wellness snacks, roasted makhana, gluten-free vegan snacks, high protein superfood, buy makhana online",
+  title: "Our Ventures | Zenvora Foods FMCG Portfolio - Premium Makhana Brands",
+  description: "Explore Zenvora Foods's premium Makhana (Fox Nuts) ventures. Uncle Makhana offers healthy, bold Indian snacks, while Pure Makhana delivers luxury export-quality wellness.",
+  keywords: "Zenvora Foods ventures, Uncle Makhana, Pure Makhana, FMCG brands, premium fox nuts, affordable healthy snacks, Indian export Makhana, luxury wellness snacks, roasted makhana, gluten-free vegan snacks, high protein superfood, buy makhana online",
   openGraph: {
-    title: "Our Ventures | Zenvora Food - Dual Brand Portfolio",
+    title: "Our Ventures | Zenvora Foods - Dual Brand Portfolio",
     description: "Discover Uncle Makhana & Pure Makhana. Serving everyone from everyday families to global luxury wellness markets.",
     url: "https://zenvorafood.com/ventures",
-    siteName: "Zenvora Food",
+    siteName: "Zenvora Foods",
     images: [
       {
         url: "/pure-product.png",
         width: 1200,
         height: 630,
-        alt: "Zenvora Food Ventures - Uncle Makhana and Pure Makhana brands",
+        alt: "Zenvora Foods Ventures - Uncle Makhana and Pure Makhana brands",
       },
     ],
     locale: "en_US",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Our Ventures | Zenvora Food Makhana Brands",
+    title: "Our Ventures | Zenvora Foods Makhana Brands",
     description: "Premium roasted Fox Nuts for the Indian consumer and global exports.",
     images: ["/pure-product.png"],
   },
@@ -42,8 +42,8 @@ export default function VenturesPage() {
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "Zenvora Food FMCG Ventures Portfolio",
-      "description": "The FMCG portfolio of Zenvora Food, featuring premium roasted Makhana (Fox Nuts) brands: Uncle Makhana and Pure Makhana.",
+      "name": "Zenvora Foods FMCG Ventures Portfolio",
+      "description": "The FMCG portfolio of Zenvora Foods, featuring premium roasted Makhana (Fox Nuts) brands: Uncle Makhana and Pure Makhana.",
       "url": "https://zenvorafood.com/ventures",
       "hasPart": [
         {
@@ -72,15 +72,15 @@ export default function VenturesPage() {
         },
         {
           "@type": "Question",
-          "name": "Are Zenvora Food's Makhana products gluten-free and vegan?",
+          "name": "Are Zenvora Foods's Makhana products gluten-free and vegan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes! All Makhana (Fox Nuts) produced by Zenvora Food are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the ultimate healthy superfood snack."
+            "text": "Yes! All Makhana (Fox Nuts) produced by Zenvora Foods are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the ultimate healthy superfood snack."
           }
         },
         {
           "@type": "Question",
-          "name": "Does Zenvora Food export Makhana internationally?",
+          "name": "Does Zenvora Foods export Makhana internationally?",
           "acceptedAnswer": {
             "@type": "Answer",
             "text": "Yes, through our Pure Makhana brand, we actively export premium grade Fox Nuts across the globe, including to Germany, the United Kingdom (UK), Hungary, and the United Arab Emirates (UAE)."
@@ -106,7 +106,7 @@ export default function VenturesPage() {
             <p className="section-label" style={{ justifyContent: 'center', color: 'white' }}>Our FMCG Portfolio</p>
             <h1 className={styles.heroTitle}>Two Distinct Visions.<br />One Exceptional Standard.</h1>
             <p className={styles.heroSubtitle}>
-              At Zenvora Food, we believe exactly zero compromises should be made on quality. We have strategically segmented our world-class Makhana (Fox Nuts) into two powerful brands dedicated to diverse consumer palates and global markets.
+              At Zenvora Foods, we believe exactly zero compromises should be made on quality. We have strategically segmented our world-class Makhana (Fox Nuts) into two powerful brands dedicated to diverse consumer palates and global markets.
             </p>
           </div>
         </header>
@@ -132,17 +132,17 @@ export default function VenturesPage() {
                 
                 <div className={styles.featureGrid}>
                   <div className={styles.featureItem}>
-                    <FaFire className={styles.featureIcon} style={{ color: 'var(--uncle-orange-dark)' }} aria-hidden="true" />
+                    <LuFlame className={styles.featureIcon} style={{ color: 'var(--uncle-orange-dark)' }} aria-hidden="true" />
                     <h4>Bold Indian Flavors</h4>
                     <p>Designed specifically for the vibrant desi palate.</p>
                   </div>
                   <div className={styles.featureItem}>
-                    <FaShoppingBasket className={styles.featureIcon} style={{ color: 'var(--uncle-orange-dark)' }} aria-hidden="true" />
+                    <LuShoppingBasket className={styles.featureIcon} style={{ color: 'var(--uncle-orange-dark)' }} aria-hidden="true" />
                     <h4>Highly Accessible</h4>
                     <p>Priced competitively for everyday guilt-free snacking.</p>
                   </div>
                   <div className={styles.featureItem}>
-                    <FaLeaf className={styles.featureIcon} style={{ color: 'var(--uncle-orange-dark)' }} aria-hidden="true" />
+                    <LuLeaf className={styles.featureIcon} style={{ color: 'var(--uncle-orange-dark)' }} aria-hidden="true" />
                     <h4>Zero Junk Philosophy</h4>
                     <p>100% roasted, never fried. Free from artificial preservatives.</p>
                   </div>
@@ -182,17 +182,17 @@ export default function VenturesPage() {
 
                 <div className={styles.featureGrid}>
                   <div className={styles.featureItem} style={{ background: 'rgba(255,255,255,0.05)' }}>
-                    <FaStar className={styles.featureIcon} style={{ color: 'var(--pure-gold)' }} aria-hidden="true" />
+                    <LuStar className={styles.featureIcon} style={{ color: 'var(--pure-gold)' }} aria-hidden="true" />
                     <h4 style={{ color: 'white' }}>A+ Export Grade</h4>
                     <p style={{ color: 'var(--pure-silver)' }}>Strict hand-picked sizing and flawless color sorting.</p>
                   </div>
                   <div className={styles.featureItem} style={{ background: 'rgba(255,255,255,0.05)' }}>
-                    <FaPlaneDeparture className={styles.featureIcon} style={{ color: 'var(--pure-gold)' }} aria-hidden="true" />
+                    <LuPlaneTakeoff className={styles.featureIcon} style={{ color: 'var(--pure-gold)' }} aria-hidden="true" />
                     <h4 style={{ color: 'white' }}>Global Reach</h4>
                     <p style={{ color: 'var(--pure-silver)' }}>Proudly exported across 4+ international continents.</p>
                   </div>
                   <div className={styles.featureItem} style={{ background: 'rgba(255,255,255,0.05)' }}>
-                    <FaGem className={styles.featureIcon} style={{ color: 'var(--pure-gold)' }} aria-hidden="true" />
+                    <LuGem className={styles.featureIcon} style={{ color: 'var(--pure-gold)' }} aria-hidden="true" />
                     <h4 style={{ color: 'white' }}>Luxury Aesthetics</h4>
                     <p style={{ color: 'var(--pure-silver)' }}>Minimalist packaging designed for premium retail shelves.</p>
                   </div>
@@ -216,21 +216,21 @@ export default function VenturesPage() {
           <div className="container">
             <div className={styles.nutritionHeader}>
               <h2 id="nutrition-heading">Why Choose Fox Nuts (Makhana)?</h2>
-              <p>Beyond the incredible crunch and flavor, our carefully sourced Makhana stands as a nutritional powerhouse. Here is why fitness enthusiasts and nutritionists globally are switching to Zenvora Food.</p>
+              <p>Beyond the incredible crunch and flavor, our carefully sourced Makhana stands as a nutritional powerhouse. Here is why fitness enthusiasts and nutritionists globally are switching to Zenvora Foods.</p>
             </div>
             <div className={styles.nutritionGrid}>
               <div className={styles.nutritionCard}>
-                <FaHeartbeat className={styles.nutritionIcon} />
+                <LuHeartPulse className={styles.nutritionIcon} />
                 <h3>Heart Healthy</h3>
                 <p>Low in cholesterol, saturated fat, and sodium. Packed with magnesium to support optimal cardiovascular health.</p>
               </div>
               <div className={styles.nutritionCard}>
-                <FaSeedling className={styles.nutritionIcon} />
+                <LuSprout className={styles.nutritionIcon} />
                 <h3>100% Vegan & Gluten-Free</h3>
                 <p>A completely plant-based snack that naturally contains zero gluten, making it safe for celiac and paleo diets.</p>
               </div>
               <div className={styles.nutritionCard}>
-                <FaCheckCircle className={styles.nutritionIcon} />
+                <LuCircleCheck className={styles.nutritionIcon} />
                 <h3>High in Clean Protein</h3>
                 <p>Offers an excellent plant-based protein to carbohydrate ratio, keeping you fuller for much longer without the heavy crash.</p>
               </div>
@@ -248,11 +248,11 @@ export default function VenturesPage() {
                 <p>Uncle Makhana is designed as an affordable, flavorful, everyday healthy snack for the Indian demographic. Pure Makhana is our ultra-premium, luxury brand consisting of A+ export grade, hand-picked lotus seeds aimed at international wellness markets and high-end retail.</p>
               </div>
               <div className={styles.faqCard}>
-                <h3>Are Zenvora Food's Makhana products gluten-free and vegan?</h3>
-                <p>Yes! All Makhana (Fox Nuts) produced by Zenvora Food are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the perfect healthy superfood snack.</p>
+                <h3>Are Zenvora Foods's Makhana products gluten-free and vegan?</h3>
+                <p>Yes! All Makhana (Fox Nuts) produced by Zenvora Foods are 100% naturally gluten-free, vegan, non-GMO, and roasted (never fried), making them the perfect healthy superfood snack.</p>
               </div>
               <div className={styles.faqCard}>
-                <h3>Does Zenvora Food export Makhana internationally?</h3>
+                <h3>Does Zenvora Foods export Makhana internationally?</h3>
                 <p>Yes, through our Pure Makhana brand, we actively export premium grade Fox Nuts across the globe, including to Germany, the United Kingdom (UK), Hungary, and the United Arab Emirates (UAE). We adhere strictly to international food safety and grading standards.</p>
               </div>
             </div>
@@ -268,7 +268,7 @@ export default function VenturesPage() {
                 We are actively looking for dynamic distribution partners, B2B wholesale buyers, global importers, and retail chains to stock Uncle Makhana and Pure Makhana. Partner with a brand that leads with quality and reliability.
               </p>
               <div className={styles.ctaButtons}>
-                <Link href="/#contact" className="btn btn-primary" aria-label="Become a distributor for Zenvora Food">Become a B2B Distributor</Link>
+                <Link href="/#contact" className="btn btn-primary" aria-label="Become a distributor for Zenvora Foods">Become a B2B Distributor</Link>
                 <Link href="/about" className="btn btn-outline" aria-label="Learn about our farm to pack Makhana supply chain">Learn About Our Farm-to-Pack Process</Link>
               </div>
             </div>

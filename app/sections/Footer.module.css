@@ -19,8 +19,8 @@
 }
 
 .logoIcon {
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,8 +28,8 @@
 }
 
 .logoImage {
-  width: 56px;
-  height: 56px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 

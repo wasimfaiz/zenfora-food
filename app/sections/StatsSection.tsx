@@ -1,11 +1,11 @@
 import styles from './StatsSection.module.css';
-import { FaRocket, FaGlobeAmericas, FaFire, FaLeaf } from 'react-icons/fa';
+import { LuRocket, LuGlobe, LuFlame, LuLeaf } from 'react-icons/lu';
 
 const stats = [
-  { num: '2', suffix: '+', label: 'Powerful Ventures', icon: <FaRocket />, desc: 'Mass market + luxury', color: '#c9a84c' },
-  { num: '4', suffix: '+', label: 'Export Countries', icon: <FaGlobeAmericas />, desc: 'Germany, UK, Hungary, UAE', color: '#4ade80' },
-  { num: '10', suffix: '+', label: 'Unique Flavours', icon: <FaFire />, desc: 'And growing', color: '#fb923c' },
-  { num: '100', suffix: '%', label: 'Natural Makhana', icon: <FaLeaf />, desc: 'No additives, no compromise', color: '#86efac' },
+  { num: '2', suffix: '+', label: 'Powerful Ventures', icon: <LuRocket />, desc: 'Mass market + luxury', color: '#c9a84c' },
+  { num: '4', suffix: '+', label: 'Export Countries', icon: <LuGlobe />, desc: 'Germany, UK, Hungary, UAE', color: '#4ade80' },
+  { num: '10', suffix: '+', label: 'Unique Flavours', icon: <LuFlame />, desc: 'And growing', color: '#fb923c' },
+  { num: '100', suffix: '%', label: 'Natural Makhana', icon: <LuLeaf />, desc: 'No additives, no compromise', color: '#86efac' },
 ];
 
 export default function StatsSection() {

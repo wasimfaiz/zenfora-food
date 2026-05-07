@@ -1,5 +1,4 @@
-import { FaGem } from 'react-icons/fa';
-import { GiChiliPepper } from 'react-icons/gi';
+import { LuGem, LuFlame } from 'react-icons/lu';
 import styles from './HeroSection.module.css';
 
 export default function HeroSection() {
@@ -31,20 +30,20 @@ export default function HeroSection() {
 
         {/* Subtext */}
         <p className={styles.heroSubtitle}>
-          Zenvora Food is redefining makhana for India and the world -<br />
+          Zenvora Foods is redefining makhana for India and the world -<br />
           bringing premium quality fox nuts from farm to consumer<br />
           through two powerful ventures built for every segment.
         </p>
 
         {/* Two venture pills */}
         <div className={styles.heroPills}>
-          <a href="#uncle-makhana" className={styles.pillUncle}>
-            <span className={styles.pillIcon}><GiChiliPepper /></span>
+          <a href="https://unclemakhana.com/" target="_blank" rel="noopener noreferrer" className={styles.pillUncle}>
+            <span className={styles.pillIcon}><LuFlame /></span>
             Uncle Makhana
             <span className={styles.pillTag}>Affordable</span>
           </a>
-          <a href="#pure-makhana" className={styles.pillPure}>
-            <span className={styles.pillIcon}><FaGem /></span>
+          <a href="https://www.makhanapure.com/" target="_blank" rel="noopener noreferrer" className={styles.pillPure}>
+            <span className={styles.pillIcon}><LuGem /></span>
             Pure Makhana
             <span className={styles.pillTag}>Luxury</span>
           </a>

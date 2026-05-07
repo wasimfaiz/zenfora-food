@@ -1,6 +1,5 @@
 import Image from 'next/image';
-import { FaGem, FaMapMarkerAlt } from 'react-icons/fa';
-import { GiChiliPepper } from 'react-icons/gi';
+import { LuGem, LuMapPin, LuFlame } from 'react-icons/lu';
 import styles from './Footer.module.css';
 
 export default function Footer() {
@@ -15,15 +14,15 @@ export default function Footer() {
               <div className={styles.logoIcon}>
                 <Image
                   src="/zenvora_logo.png"
-                  alt="Zenvora Food logo"
-                  width={56}
-                  height={56}
+                  alt="Zenvora Foods logo"
+                  width={60}
+                  height={60}
                   className={styles.logoImage}
                 />
               </div>
               <div>
                 <div className={styles.logoBrand}>Zenvora</div>
-                <div className={styles.logoSub}>Food &middot; FMCG Company</div>
+                <div className={styles.logoSub}>Foods &middot; FMCG Company</div>
               </div>
             </div>
             <p className={styles.brandDesc}>
@@ -31,12 +30,12 @@ export default function Footer() {
               heartland to global shelves. Two brands, one vision.
             </p>
             <div className={styles.ventures}>
-              <a href="#uncle-makhana" className={styles.ventureUncle}>
-                <GiChiliPepper />
+              <a href="https://unclemakhana.com/" target="_blank" rel="noopener noreferrer" className={styles.ventureUncle}>
+                <LuFlame />
                 Uncle Makhana
               </a>
-              <a href="#pure-makhana" className={styles.venturePure}>
-                <FaGem />
+              <a href="https://www.makhanapure.com/" target="_blank" rel="noopener noreferrer" className={styles.venturePure}>
+                <LuGem />
                 Pure Makhana
               </a>
             </div>
@@ -53,8 +52,8 @@ export default function Footer() {
             </div>
             <div className={styles.linkGroup}>
               <div className={styles.linkGroupTitle}>Ventures</div>
-              <a href="#uncle-makhana" className={styles.link}>Uncle Makhana</a>
-              <a href="#pure-makhana" className={styles.link}>Pure Makhana</a>
+              <a href="https://unclemakhana.com/" target="_blank" rel="noopener noreferrer" className={styles.link}>Uncle Makhana</a>
+              <a href="https://www.makhanapure.com/" target="_blank" rel="noopener noreferrer" className={styles.link}>Pure Makhana</a>
               <a href="#contact" className={styles.link}>Distributors</a>
               <a href="#contact" className={styles.link}>Export Enquiry</a>
             </div>
@@ -74,10 +73,10 @@ export default function Footer() {
         {/* Bottom */}
         <div className={styles.bottom}>
           <div className={styles.copyright}>
-            &copy; 2026 Zenvora Food Pvt. Ltd. &middot; All rights reserved.
+            &copy; 2026 Zenvora Foods Pvt. Ltd. &middot; All rights reserved.
           </div>
           <div className={styles.madeIn}>
-            <FaMapMarkerAlt />
+            <LuMapPin />
             Proudly Made in Bihar, India
           </div>
         </div>

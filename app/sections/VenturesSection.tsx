@@ -55,7 +55,7 @@ export default function VenturesSection() {
                 <span className={styles.metaLabel}>Market</span>
               </div>
             </div>
-            <a href="#uncle-makhana" className={styles.uncleBtn}>View Uncle Makhana →</a>
+            <a href="https://unclemakhana.com/" target="_blank" rel="noopener noreferrer" className={styles.uncleBtn}>View Uncle Makhana →</a>
           </div>
 
           {/* VS divider */}
@@ -104,7 +104,7 @@ export default function VenturesSection() {
                 <span className={styles.metaLabel} style={{ color: '#8a9bb0' }}>Segment</span>
               </div>
             </div>
-            <a href="#pure-makhana" className={styles.pureBtn}>View Pure Makhana →</a>
+            <a href="https://www.makhanapure.com/" target="_blank" rel="noopener noreferrer" className={styles.pureBtn}>View Pure Makhana →</a>
           </div>
         </div>
       </div>

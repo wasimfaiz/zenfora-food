@@ -1,39 +1,39 @@
 import styles from './WhyZenvoraSection.module.css';
-import { FaSeedling, FaFlask, FaLightbulb, FaChartLine, FaHandshake, FaGlobe } from 'react-icons/fa';
+import { LuSprout, LuFlaskConical, LuLightbulb, LuTrendingUp, LuHandshake, LuGlobe } from 'react-icons/lu';
 
 const reasons = [
   {
-    icon: <FaSeedling />,
+    icon: <LuSprout />,
     title: 'Traceable Origin',
     desc: "Every batch is sourced directly from verified farmers in Bihar's fertile makhana belt. Full supply chain transparency.",
     color: '#1a5c3a',
   },
   {
-    icon: <FaFlask />,
+    icon: <LuFlaskConical />,
     title: 'Rigorous Quality Control',
     desc: 'Our state-of-the-art processing facility ensures every makhana meets the highest standards before packaging.',
     color: '#0d4f7a',
   },
   {
-    icon: <FaLightbulb />,
+    icon: <LuLightbulb />,
     title: 'Dual Market Strategy',
     desc: "We pioneer the market with two brands - making us the only FMCG company serving both mass and luxury makhana.",
     color: '#6b21a8',
   },
   {
-    icon: <FaChartLine />,
+    icon: <LuTrendingUp />,
     title: 'Explosive Market Growth',
     desc: 'The global makhana market is projected to grow at 20%+ CAGR. We are positioned at the forefront of this revolution.',
     color: '#b85e1f',
   },
   {
-    icon: <FaHandshake />,
+    icon: <LuHandshake />,
     title: 'Farmer Partnership Model',
     desc: 'We pay farmers fair prices and invest in their communities, ensuring sustainable and ethical sourcing for the long term.',
     color: '#065f46',
   },
   {
-    icon: <FaGlobe />,
+    icon: <LuGlobe />,
     title: 'Export-First Vision',
     desc: 'With active distribution in Germany, UK, Hungary and UAE, we are building a globally recognised Indian food brand.',
     color: '#7c3aed',
@@ -47,7 +47,7 @@ export default function WhyZenvoraSection() {
         {/* Header */}
         <div className={styles.header}>
           <p className="section-label">Why Choose Us</p>
-          <h2 className={styles.title}>Why Zenvora Food is<br />the Future of Makhana</h2>
+          <h2 className={styles.title}>Why Zenvora Foods is<br />the Future of Makhana</h2>
           <p className={styles.subtitle}>
             We don't just sell makhana - we're building an ecosystem.
             From Bihar's farms to global shelves, here's what makes us different.

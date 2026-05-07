@@ -22,16 +22,16 @@ export default function Navbar() {
           <div className={styles.logoIcon}>
             <Image
               src="/zenvora_logo.png"
-              alt="Zenvora Food logo"
-              width={52}
-              height={52}
+              alt="Zenvora Foods logo"
+              width={60}
+              height={60}
               className={styles.logoImage}
               priority
             />
           </div>
           <div className={styles.logoText}>
             <span className={styles.logoBrand}>Zenvora</span>
-            <span className={styles.logoSub}>Food</span>
+            <span className={styles.logoSub}>Foods</span>
           </div>
         </Link>
 
@@ -39,8 +39,6 @@ export default function Navbar() {
         <ul className={styles.navLinks}>
           <li><Link href="/about">About Us</Link></li>
           <li><Link href="/ventures">Our Ventures</Link></li>
-          <li><Link href="/ventures#uncle-makhana">Uncle Makhana</Link></li>
-          <li><Link href="/ventures#pure-makhana">Pure Makhana</Link></li>
           <li><Link href="/#contact">Contact</Link></li>
         </ul>
 
@@ -65,8 +63,6 @@ export default function Navbar() {
         <div className={styles.mobileMenu}>
           <Link href="/about" onClick={() => setMenuOpen(false)}>About Us</Link>
           <Link href="/ventures" onClick={() => setMenuOpen(false)}>Our Ventures</Link>
-          <Link href="/ventures#uncle-makhana" onClick={() => setMenuOpen(false)}>Uncle Makhana</Link>
-          <Link href="/ventures#pure-makhana" onClick={() => setMenuOpen(false)}>Pure Makhana</Link>
           <Link href="/#contact" onClick={() => setMenuOpen(false)}>Contact</Link>
           <Link href="/#contact" className="btn btn-primary" onClick={() => setMenuOpen(false)}>Partner With Us</Link>
         </div>

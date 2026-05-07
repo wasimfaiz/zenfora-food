@@ -1,12 +1,12 @@
 import styles from './AboutSection.module.css';
-import { FaLeaf, FaTrophy, FaGlobe, FaHeart } from 'react-icons/fa';
+import { LuLeaf, LuTrophy, LuGlobe, LuHeart } from 'react-icons/lu';
 import Link from 'next/link';
 
 const values = [
-  { icon: <FaLeaf />, label: 'Farm-to-Pack', desc: 'Direct sourcing, zero middlemen', color: '#1a5c3a' },
-  { icon: <FaTrophy />, label: 'Quality First', desc: 'Rigorous grading & processing', color: '#b8860b' },
-  { icon: <FaGlobe />, label: 'Global Vision', desc: 'Exporting across 4+ countries', color: '#1a5c3a' },
-  { icon: <FaHeart />, label: 'Farmer First', desc: 'Fair prices, better livelihoods', color: '#c0392b' },
+  { icon: <LuLeaf />, label: 'Farm-to-Pack', desc: 'Direct sourcing, zero middlemen', color: '#1a5c3a' },
+  { icon: <LuTrophy />, label: 'Quality First', desc: 'Rigorous grading & processing', color: '#b8860b' },
+  { icon: <LuGlobe />, label: 'Global Vision', desc: 'Exporting across 4+ countries', color: '#1a5c3a' },
+  { icon: <LuHeart />, label: 'Farmer First', desc: 'Fair prices, better livelihoods', color: '#c0392b' },
 ];
 
 export default function AboutSection() {
@@ -20,7 +20,7 @@ export default function AboutSection() {
               <img src="/about-lotus.png" alt="Lotus field in Bihar - origin of Zenvora makhana" className={styles.image} />
               <div className={styles.imageAccentCard}>
                 <div className={styles.accentIconWrap} style={{ color: '#1a5c3a' }}>
-                  <FaLeaf size={22} />
+                  <LuLeaf size={22} />
                 </div>
                 <div>
                   <div className={styles.accentNum}>100%</div>
@@ -39,7 +39,7 @@ export default function AboutSection() {
             <p className="section-label">Our Story</p>
             <h2 className={styles.title}>Born from the Heartland,<br />Built for the World</h2>
             <p className={styles.lead}>
-              Zenvora Food is an FMCG company on a mission - to unlock the full potential of makhana,
+              Zenvora Foods is an FMCG company on a mission - to unlock the full potential of makhana,
               India's most underrated superfood, and bring it to tables across the globe.
             </p>
             <p className={styles.body}>

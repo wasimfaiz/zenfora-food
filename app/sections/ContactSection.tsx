@@ -1,5 +1,5 @@
 import styles from './ContactSection.module.css';
-import { FaEnvelope, FaMapMarkerAlt, FaPaperPlane, FaPhoneAlt } from 'react-icons/fa';
+import { LuMail, LuMapPin, LuSend, LuPhone } from 'react-icons/lu';
 
 export default function ContactSection() {
   return (
@@ -18,21 +18,21 @@ export default function ContactSection() {
             {/* Contact options */}
             <div className={styles.contactOptions}>
               <div className={styles.contactOption}>
-                <div className={styles.optionIcon}><FaEnvelope size={18} /></div>
+                <div className={styles.optionIcon}><LuMail size={18} /></div>
                 <div>
                   <div className={styles.optionLabel}>Email Us</div>
                   <div className={styles.optionValue}>hello@zenvorafood.com</div>
                 </div>
               </div>
               <div className={styles.contactOption}>
-                <div className={styles.optionIcon}><FaPhoneAlt size={18} /></div>
+                <div className={styles.optionIcon}><LuPhone size={18} /></div>
                 <div>
                   <div className={styles.optionLabel}>Call / WhatsApp</div>
                   <div className={styles.optionValue}>+91 98765 43210</div>
                 </div>
               </div>
               <div className={styles.contactOption}>
-                <div className={styles.optionIcon}><FaMapMarkerAlt size={20} /></div>
+                <div className={styles.optionIcon}><LuMapPin size={20} /></div>
                 <div>
                   <div className={styles.optionLabel}>Registered Office</div>
                   <div className={styles.optionValue}>Noida, Uttar Pradesh</div>
@@ -87,7 +87,7 @@ export default function ContactSection() {
                     <option value="">Select brand</option>
                     <option>Uncle Makhana</option>
                     <option>Pure Makhana</option>
-                    <option>Both / Zenvora Food</option>
+                    <option>Both / Zenvora Foods</option>
                   </select>
                 </div>
                 <div className={styles.formGroup}>
@@ -95,7 +95,7 @@ export default function ContactSection() {
                   <textarea className={`${styles.input} ${styles.textarea}`} id="message" rows={4} placeholder="Tell us about your requirements..." />
                 </div>
                 <button type="submit" className={styles.submitBtn} id="contact-submit-btn">
-                  Send Message <FaPaperPlane />
+                  Send Message <LuSend />
                 </button>
               </form>
             </div>
