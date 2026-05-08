@@ -25,10 +25,14 @@ export default function Footer() {
                 <div className={styles.logoSub}>Foods &middot; FMCG Company</div>
               </div>
             </div>
-            <p className={styles.brandDesc}>
+            <p className={styles.brandDesc} style={{ marginBottom: '16px' }}>
               Redefining makhana for India and the world - from Bihar&apos;s
               heartland to global shelves. Two brands, one vision.
             </p>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', color: 'rgba(255,255,255,0.5)', fontSize: '14px', marginBottom: '28px' }}>
+              <LuMapPin size={16} />
+              <span>Noida, Uttar Pradesh, India</span>
+            </div>
             <div className={styles.ventures}>
               <a href="https://unclemakhana.com/" target="_blank" rel="noopener noreferrer" className={styles.ventureUncle}>
                 <LuFlame />
@@ -76,8 +80,7 @@ export default function Footer() {
             &copy; 2026 Zenvora Foods Pvt. Ltd. &middot; All rights reserved.
           </div>
           <div className={styles.madeIn}>
-            <LuMapPin />
-            Proudly Made in Bihar, India
+            Developed by <a href="https://setzet.com/" target="_blank" rel="noopener noreferrer" style={{color: 'rgba(255,255,255,0.8)', textDecoration: 'none', fontWeight: 'bold', marginLeft: '4px'}}>Setzet</a>
           </div>
         </div>
       </div>
