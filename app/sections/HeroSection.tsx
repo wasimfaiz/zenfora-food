@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { LuGem, LuFlame } from 'react-icons/lu';
 import styles from './HeroSection.module.css';
 
@@ -51,7 +52,7 @@ export default function HeroSection() {
 
         {/* CTAs */}
         <div className={styles.heroCtas}>
-          <a href="#ventures" className="btn btn-gold">Explore Our Ventures</a>
+          <Link href="/ventures" className="btn btn-gold">Explore Our Ventures</Link>
           <a href="#about" className="btn btn-outline-white">Our Story</a>
         </div>
 
