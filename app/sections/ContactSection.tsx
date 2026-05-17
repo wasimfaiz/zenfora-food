@@ -28,7 +28,7 @@ export default function ContactSection() {
                 <div className={styles.optionIcon}><LuPhone size={18} /></div>
                 <div>
                   <div className={styles.optionLabel}>Call / WhatsApp</div>
-                  <div className={styles.optionValue}>+91 98765 43210</div>
+                  <div className={styles.optionValue}>+91 8796365644</div>
                 </div>
               </div>
               <div className={styles.contactOption}>

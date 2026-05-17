@@ -66,7 +66,7 @@ export default function Footer() {
               <a href="mailto:hello@zenvorafood.com" className={styles.link}>Email Us</a>
               <a href="#" className={styles.link}>LinkedIn</a>
               <a href="#" className={styles.link}>Instagram</a>
-              <a href="#" className={styles.link}>WhatsApp</a>
+              <a href="https://wa.me/918796365644" className={styles.link} target="_blank" rel="noopener noreferrer">WhatsApp</a>
             </div>
           </div>
         </div>
